@@ -1,6 +1,36 @@
-figma.showUI(__html__);
+figma.showUI(__html__, {width: 600, height: 800});
 
 figma.ui.onmessage = (msg) => {
+    console.log('msg.type', msg.type);
+
+    if ((msg.type = 'get-styles')) {
+        const paintCollection = [];
+        const typeCollection = [];
+        const gridCollection = [];
+        const efxCollection = [];
+        figma
+            .getLocalPaintStyles()
+            .forEach((style) => paintCollection.push({name: style.name, id: style.id, description: style.description}));
+        figma
+            .getLocalTextStyles()
+            .forEach((style) => typeCollection.push({name: style.name, id: style.id, description: style.description}));
+        figma
+            .getLocalGridStyles()
+            .forEach((style) => gridCollection.push({name: style.name, id: style.id, description: style.description}));
+        figma
+            .getLocalEffectStyles()
+            .forEach((style) => efxCollection.push({name: style.name, id: style.id, description: style.description}));
+        figma.ui.postMessage({
+            type: 'send-styles',
+            message: {
+                colors: paintCollection,
+                text: typeCollection,
+                grid: gridCollection,
+                efx: efxCollection,
+            },
+        });
+    }
+
     if (msg.type === 'create-rectangles') {
         const nodes = [];
 
@@ -19,8 +49,9 @@ figma.ui.onmessage = (msg) => {
         figma.ui.postMessage({
             type: 'create-rectangles',
             message: `Created ${msg.count} Rectangles`,
+            foo: `Food`,
         });
     }
 
-    figma.closePlugin();
+    // figma.closePlugin();
 };
