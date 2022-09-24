@@ -10,6 +10,7 @@ const App = ({}) => {
     const [typographyStyles, setTypographyStyles] = useState([]);
     const [gridStyles, setGridStyles] = useState([]);
     const [efxStyles, setEfxStyles] = useState([]);
+    const [selectedStyle, setSelectedStyle] = useState(null);
 
     const getStyles = () => {
         parent.postMessage({pluginMessage: {type: 'get-styles'}}, '*');
@@ -36,28 +37,62 @@ const App = ({}) => {
         return (
             <div className="style-collection">
                 <h5>{title}</h5>
-                {collection.map((figmaStyle) => {
-                    return (
-                        <div className="style-collection__item" key={figmaStyle.id}>
-                            {figmaStyle.name}
-                        </div>
-                    );
-                })}
+                <div className="style-collection__list">
+                    {collection.map((figmaStyle) => {
+                        return (
+                            <div className="style-collection__item" key={figmaStyle.id}>
+                                {figmaStyle.name}
+
+                                <div
+                                    className="style-collection__item__action"
+                                    onClick={() => {
+                                        setSelectedStyle(figmaStyle);
+                                        parent.postMessage(
+                                            {pluginMessage: {type: 'get-style', message: figmaStyle}},
+                                            '*'
+                                        );
+                                    }}
+                                >
+                                    Get details
+                                </div>
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
         );
     };
 
+    const CurrentView = ({style}) => {
+        if (style === null) {
+            return (
+                <div>
+                    <Listing title="Colors" collection={colorStyles} />
+                    <Listing title="Typography" collection={typographyStyles} />
+                    <Listing title="Grid" collection={gridStyles} />
+                    <Listing title="Effects" collection={efxStyles} />
+                </div>
+            );
+        } else {
+            return (
+                <div>
+                    <div
+                        onClick={() => {
+                            setSelectedStyle(null);
+                        }}
+                    >
+                        Back
+                    </div>
+                    <h1>{style.name}</h1>
+                    <h2>{style.id}</h2>
+                </div>
+            );
+        }
+    };
+
     return (
         <div>
-            <img src={require('../assets/logo.svg')} />
-            <h2>Styles</h2>
-            <button id="get-styles" onClick={getStyles}>
-                Get Styles
-            </button>
-            <Listing title="Colors" collection={colorStyles} />
-            <Listing title="Typography" collection={typographyStyles} />
-            <Listing title="Grid" collection={gridStyles} />
-            <Listing title="Effects" collection={efxStyles} />
+            <CurrentView style={selectedStyle} />
         </div>
     );
 };
