@@ -67,3 +67,23 @@ body {
     flex: 1 1 auto;
     padding: 8px;
 }
+
+.search {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.search input {
+    flex: 1 1 auto;
+    padding: 8px;
+}
+
+.color-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 16px;
+    height: 100px;
+    margin-bottom: 16px;
+}

@@ -12,9 +12,7 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
                 Back
             </div>
             <h3>{style.name}</h3>
-            <h4>{style.id}</h4>
-            <p>{style.description}</p>
-
+            <div className="color-block" style={{background: style.description}}></div>
             <div className="flex">
                 <div className="input">
                     <input value={styleAlias} onChange={(e) => setStyleAlias(e.target.value)} />

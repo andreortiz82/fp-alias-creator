@@ -14,11 +14,13 @@ const StyleListing = ({title, collection, setSelectedStyle}) => {
     return (
         <div className="style-collection">
             <h5>{title}</h5>
-            <input
-                onChange={(e) => {
-                    setQuery(e.target.value);
-                }}
-            ></input>
+            <div className="search">
+                <input
+                    onChange={(e) => {
+                        setQuery(e.target.value);
+                    }}
+                ></input>
+            </div>
             <div className="style-collection__list">
                 {filtered.map((figmaStyle) => {
                     return (

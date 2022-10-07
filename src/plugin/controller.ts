@@ -26,13 +26,11 @@ HelloFigma();
 
 figma.ui.onmessage = (msg) => {
     if (msg.type === 'make-style') {
-        if (original.type === 'PAINT') {
-            const original = figma.getStyleById(msg.selectedStyle.id);
-            const style = figma.createPaintStyle();
-            style.paints = original.paints;
-            style.name = `_TEMP/${msg.styleAlias}`;
-            style.description = original.id;
-        }
+        const original = figma.getStyleById(msg.selectedStyle.id);
+        const style = figma.createPaintStyle();
+        style.paints = original.paints;
+        style.name = `_TEMP/${msg.styleAlias}`;
+        style.description = JSON.stringify({id: original.id, description: original.description, type: 'alias'});
     }
     // figma.closePlugin();
 };
