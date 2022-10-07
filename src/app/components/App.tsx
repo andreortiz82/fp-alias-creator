@@ -2,7 +2,6 @@
 import React, {useState, useEffect} from 'react';
 import StyleDetails from './StyleDetails';
 import StyleListing from './StyleListing';
-import '../styles/ui.css';
 
 declare function require(path: string): any;
 

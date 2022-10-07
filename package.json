@@ -6,6 +6,8 @@
 	"scripts": {
 		"build": "webpack --mode=production",
 		"watch": "webpack --mode=development --watch",
+		"scss": "sass src/app/styles:src/app/styles",
+		"scss:watch": "sass src/app/styles:src/app/styles --watch",
 		"prettier:format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' "
 	},
 	"dependencies": {
@@ -22,6 +24,7 @@
 		"husky": "^4.3.0",
 		"lint-staged": "^10.5.1",
 		"prettier": "^2.3.1",
+		"sass": "^1.55.0",
 		"style-loader": "^2.0.0",
 		"ts-loader": "^8.0.11",
 		"typescript": "^4.1.2",
@@ -35,7 +38,7 @@
 		}
 	},
 	"lint-staged": {
-		"src/**/*.{js,jsx,ts,tsx,css,json}": [
+		"src/**/*.{js,jsx,ts,tsx,css,scss,json}": [
 			"prettier --write",
 			"git add"
 		]
