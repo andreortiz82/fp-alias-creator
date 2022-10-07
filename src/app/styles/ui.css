@@ -1,22 +1,71 @@
+:root {
+    --app-bg-color: rgb(255, 255, 255);
+    --app-primary-text: rgb(45, 45, 45);
+    --app-bg-subtle-color: rgb(247, 247, 247);
+    --component-bg-color: rgb(255, 255, 255);
+    --component-border-color: rgb(247, 247, 247);
+    --cta-action: rgb(52, 52, 255);
+    --cta-text: rgb(255, 255, 255);
+    --size-static-1: 1px;
+    --size-xxs: 2px;
+    --size-xs: 4px;
+    --size-sm: 8px;
+    --size-md: 16px;
+    --size-lg: 24px;
+    --size-xl: 32px;
+    --size-xxl: 40px;
+    --list-max-height: 400px;
+}
+
 body {
-    font: 16px sans-serif;
-    padding: 16px;
+    font: var(--size-md) sans-serif;
+    padding: var(--size-md);
+    background-color: var(--app-bg-color);
 }
 
 .style-collection__item {
-    padding: 16px;
-    margin-bottom: 2px;
-    background: #f5f5f5;
+    padding: var(--size-md);
+    margin-bottom: var(--size-xxs);
+    background: var(--app-bg-subtle-color);
     display: flex;
     justify-content: space-between;
 }
 
 .style-collection__list {
-    max-height: 400px;
+    max-height: var(--list-max-height);
     overflow: auto;
 }
 
-.style-collection__item__action {
-    color: cornflowerblue;
+.action {
+    color: var(--cta-action);
     cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex .button,
+.flex .input {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.button {
+    padding: var(--size-xs);
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    background-color: var(--app-bg-subtle-color);
+}
+
+.input {
+    margin-right: 16px;
+}
+
+.input input {
+    flex: 1 1 auto;
+    padding: 8px;
 }

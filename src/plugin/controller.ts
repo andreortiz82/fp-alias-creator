@@ -37,5 +37,9 @@ figma.ui.onmessage = (msg) => {
         console.log('msg.message', msg.message);
     }
 
+    if ((msg.type = 'make-style')) {
+        console.log('msg.message', msg.message);
+    }
+
     // figma.closePlugin();
 };

@@ -1,6 +1,5 @@
 // import * as React from 'react';
 import React, {useState, useEffect} from 'react';
-
 import '../styles/ui.css';
 
 declare function require(path: string): any;
@@ -11,10 +10,7 @@ const App = ({}) => {
     const [gridStyles, setGridStyles] = useState([]);
     const [efxStyles, setEfxStyles] = useState([]);
     const [selectedStyle, setSelectedStyle] = useState(null);
-
-    const getStyles = () => {
-        parent.postMessage({pluginMessage: {type: 'get-styles'}}, '*');
-    };
+    const [styleAlias, setStyleAlias] = React.useState('');
 
     const updateStyles = (message) => {
         setColorStyles(message.colors);
@@ -40,21 +36,15 @@ const App = ({}) => {
                 <div className="style-collection__list">
                     {collection.map((figmaStyle) => {
                         return (
-                            <div className="style-collection__item" key={figmaStyle.id}>
+                            <div
+                                className="style-collection__item action"
+                                key={figmaStyle.id}
+                                onClick={() => {
+                                    setSelectedStyle(figmaStyle);
+                                    parent.postMessage({pluginMessage: {type: 'get-style', message: figmaStyle}}, '*');
+                                }}
+                            >
                                 {figmaStyle.name}
-
-                                <div
-                                    className="style-collection__item__action"
-                                    onClick={() => {
-                                        setSelectedStyle(figmaStyle);
-                                        parent.postMessage(
-                                            {pluginMessage: {type: 'get-style', message: figmaStyle}},
-                                            '*'
-                                        );
-                                    }}
-                                >
-                                    Get details
-                                </div>
                             </div>
                         );
                     })}
@@ -77,14 +67,39 @@ const App = ({}) => {
             return (
                 <div>
                     <div
+                        className="action"
                         onClick={() => {
                             setSelectedStyle(null);
                         }}
                     >
                         Back
                     </div>
-                    <h1>{style.name}</h1>
-                    <h2>{style.id}</h2>
+                    <h3>{style.name}</h3>
+                    <h4>{style.id}</h4>
+                    <p>{style.description}</p>
+
+                    <div className="flex">
+                        <div className="input">
+                            <input onEnded={(e) => setStyleAlias(e.target.value)} />
+                        </div>
+                        <div
+                            className="action button"
+                            onClick={() => {
+                                parent.postMessage(
+                                    {
+                                        pluginMessage: {
+                                            styleAlias: styleAlias,
+                                            selectedStyle: selectedStyle,
+                                            type: 'make-style',
+                                        },
+                                    },
+                                    '*'
+                                );
+                            }}
+                        >
+                            Save
+                        </div>
+                    </div>
                 </div>
             );
         }
