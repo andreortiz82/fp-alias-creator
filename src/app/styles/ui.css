@@ -32,8 +32,6 @@ body {
 }
 
 .style-collection__list {
-    max-height: var(--list-max-height);
-    overflow: auto;
 }
 
 .action {

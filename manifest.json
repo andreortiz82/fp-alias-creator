@@ -1,11 +1,10 @@
 {
-  "name": "Figma Plugin Template",
-  "id": "00000000",
+  "name": "Alias",
+  "id": "@reifyhealth/design/alias-plugin",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
   "editorType": [
-    "figma",
-    "figjam"
+    "figma"
   ]
 }
