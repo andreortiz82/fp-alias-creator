@@ -31,14 +31,14 @@ const HelloFigma = () => {
 HelloFigma();
 
 figma.ui.onmessage = (msg) => {
-    console.log('msg.type', msg.type);
+    console.log('msg', msg);
 
-    if ((msg.type = 'get-style')) {
-        console.log('msg.message', msg.message);
-    }
-
-    if ((msg.type = 'make-style')) {
-        console.log('msg.message', msg.message);
+    if (msg.type === 'make-style') {
+        const original = figma.getStyleById(msg.selectedStyle.id);
+        const style = figma.createPaintStyle();
+        style.name = `aliases/${msg.styleAlias}`;
+        style.paints = original.paints;
+        style.description = original.id;
     }
 
     // figma.closePlugin();

@@ -4,6 +4,73 @@ import '../styles/ui.css';
 
 declare function require(path: string): any;
 
+const Listing = ({title, collection, setSelectedStyle}) => {
+    return (
+        <div className="style-collection">
+            <h5>{title}</h5>
+            <div className="style-collection__list">
+                {collection.map((figmaStyle) => {
+                    return (
+                        <div
+                            className="style-collection__item action"
+                            key={figmaStyle.id}
+                            onClick={() => {
+                                setSelectedStyle(figmaStyle);
+                                parent.postMessage({pluginMessage: {type: 'get-style', message: figmaStyle}}, '*');
+                            }}
+                        >
+                            {figmaStyle.name}
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+    );
+};
+
+const AliasForm = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
+    return (
+        <div>
+            <div
+                className="action"
+                onClick={() => {
+                    setSelectedStyle(null);
+                }}
+            >
+                Back
+            </div>
+            <h3>{style.name}</h3>
+            <h4>{style.id}</h4>
+            <p>{style.description}</p>
+
+            <div className="flex">
+                <div className="input">
+                    <input value={styleAlias} onChange={(e) => setStyleAlias(e.target.value)} />
+                </div>
+                <div
+                    className="action button"
+                    onClick={() => {
+                        parent.postMessage(
+                            {
+                                pluginMessage: {
+                                    styleAlias: styleAlias,
+                                    selectedStyle: style,
+                                    type: 'make-style',
+                                },
+                            },
+                            '*'
+                        );
+                        setSelectedStyle(null);
+                        setStyleAlias('');
+                    }}
+                >
+                    Save
+                </div>
+            </div>
+        </div>
+    );
+};
+
 const App = ({}) => {
     const [colorStyles, setColorStyles] = useState([]);
     const [typographyStyles, setTypographyStyles] = useState([]);
@@ -29,87 +96,31 @@ const App = ({}) => {
         };
     }, []);
 
-    const Listing = ({title, collection}) => {
-        return (
-            <div className="style-collection">
-                <h5>{title}</h5>
-                <div className="style-collection__list">
-                    {collection.map((figmaStyle) => {
-                        return (
-                            <div
-                                className="style-collection__item action"
-                                key={figmaStyle.id}
-                                onClick={() => {
-                                    setSelectedStyle(figmaStyle);
-                                    parent.postMessage({pluginMessage: {type: 'get-style', message: figmaStyle}}, '*');
-                                }}
-                            >
-                                {figmaStyle.name}
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-        );
-    };
-
-    const CurrentView = ({style}) => {
+    const currentView = (style) => {
         if (style === null) {
             return (
                 <div>
-                    <Listing title="Colors" collection={colorStyles} />
-                    <Listing title="Typography" collection={typographyStyles} />
-                    <Listing title="Grid" collection={gridStyles} />
-                    <Listing title="Effects" collection={efxStyles} />
+                    <Listing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />
+                    <Listing setSelectedStyle={setSelectedStyle} title="Typography" collection={typographyStyles} />
+                    <Listing setSelectedStyle={setSelectedStyle} title="Grid" collection={gridStyles} />
+                    <Listing setSelectedStyle={setSelectedStyle} title="Effects" collection={efxStyles} />
                 </div>
             );
         } else {
             return (
                 <div>
-                    <div
-                        className="action"
-                        onClick={() => {
-                            setSelectedStyle(null);
-                        }}
-                    >
-                        Back
-                    </div>
-                    <h3>{style.name}</h3>
-                    <h4>{style.id}</h4>
-                    <p>{style.description}</p>
-
-                    <div className="flex">
-                        <div className="input">
-                            <input onEnded={(e) => setStyleAlias(e.target.value)} />
-                        </div>
-                        <div
-                            className="action button"
-                            onClick={() => {
-                                parent.postMessage(
-                                    {
-                                        pluginMessage: {
-                                            styleAlias: styleAlias,
-                                            selectedStyle: selectedStyle,
-                                            type: 'make-style',
-                                        },
-                                    },
-                                    '*'
-                                );
-                            }}
-                        >
-                            Save
-                        </div>
-                    </div>
+                    <AliasForm
+                        styleAlias={styleAlias}
+                        setSelectedStyle={setSelectedStyle}
+                        style={style}
+                        setStyleAlias={setStyleAlias}
+                    />
                 </div>
             );
         }
     };
 
-    return (
-        <div>
-            <CurrentView style={selectedStyle} />
-        </div>
-    );
+    return <div>{currentView(selectedStyle)}</div>;
 };
 
 export default App;
