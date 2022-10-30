@@ -17,8 +17,8 @@ const Navigation = ({currentTab, setCurrentTab}) => {
                     Typography
                 </button>
                 <button
-                    className={currentTab === 'sizes' ? 'active' : 'secondary'}
-                    onClick={() => setCurrentTab('sizes')}
+                    className={currentTab === 'grid' ? 'active' : 'secondary'}
+                    onClick={() => setCurrentTab('grid')}
                 >
                     Sizes
                 </button>
@@ -32,11 +32,24 @@ const Navigation = ({currentTab, setCurrentTab}) => {
                     className={currentTab === 'json' ? 'active' : 'secondary'}
                     onClick={() => setCurrentTab('json')}
                 >
-                    JSON Output
+                    JSON
                 </button>
             </nav>
         </div>
     );
 };
 
-export default Navigation;
+const BackButton = ({setSelectedStyle}) => {
+    return (
+        <button
+            className="secondary"
+            onClick={() => {
+                setSelectedStyle(null);
+            }}
+        >
+            Back
+        </button>
+    );
+};
+
+export {Navigation, BackButton};

@@ -1,35 +1,56 @@
 import * as React from 'react';
 import {rgbToHex, saveFile} from '../utils';
+import * as _ from 'lodash';
 
 const StyleJson = ({value}) => {
     const cleanString = (s) => {
         return s.trim().replace(' ', '-').toLowerCase();
     };
 
+    const configValue = (token) => {
+        switch (token.type) {
+            case 'colors':
+                return rgbToHex(token.paints[0].color);
+                break;
+            case 'typography':
+                return token.value;
+                break;
+            case 'grid':
+                return token.layoutGrids;
+                break;
+            case 'effects':
+                return token.effects;
+                break;
+            default:
+                return {};
+                break;
+        }
+    };
+
     const createOutput = (styles) => {
         const output = {base: {}, alias: {}};
-
-        styles.map((color) => {
-            const originalColor = {
-                id: color.id,
-                name: cleanString(color.name),
-                value: rgbToHex(color.paints[0].color),
-                knownAliases: color.description,
+        // console.log(styles)
+        styles.map((token) => {
+            const originalStyle = {
+                id: token.id,
+                name: cleanString(token.name),
+                value: configValue(token),
+                knownAliases: token.description,
             };
-            output.base[originalColor.name] = {
-                id: originalColor.id,
-                value: originalColor.value,
-                type: 'color',
+            output.base[originalStyle.name] = {
+                id: originalStyle.id,
+                value: originalStyle.value,
+                type: token.type,
                 description: {
-                    knownAliases: color.description,
+                    knownAliases: token.description,
                 },
             };
 
-            if (color.description !== '') {
-                const knownAliases = color.description.split(',');
+            if (token.description !== '') {
+                const knownAliases = token.description.split(',');
                 knownAliases.map((alias) => {
-                    const aliasColor = {name: cleanString(alias), value: `{base.${originalColor.name}}`};
-                    output.alias[aliasColor.name] = {value: aliasColor.value, type: 'color-alias'};
+                    const newAlias = {name: cleanString(alias), value: `{base.${originalStyle.name}}`};
+                    output.alias[newAlias.name] = {value: newAlias.value, type: `${token.type}-alias`};
                 });
             }
         });
@@ -39,8 +60,8 @@ const StyleJson = ({value}) => {
 
     return (
         <div className="style-output">
-            <h5>JSON</h5>
-            <p>Save this JSON and run it through Style Dictionary.</p>
+            <h1>JSON</h1>
+            <p>Save this JSON and proccess it with Style Dictionary.</p>
             <button className="secondary" onClick={() => saveFile(JSON.stringify(createOutput(value), null, 2))}>
                 Save
             </button>

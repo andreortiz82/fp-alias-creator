@@ -3,18 +3,26 @@ import React, {useState, useEffect} from 'react';
 import StyleDetails from './StyleDetails';
 import StyleListing from './StyleListing';
 import StyleJson from './StyleJson';
-import Navigation from './Navigation';
+import {Navigation} from './Navigation';
 
 declare function require(path: string): any;
 
 const App = ({}) => {
     const [currentTab, setCurrentTab] = useState('colors');
+
     const [colorStyles, setColorStyles] = useState([]);
+    const [typographyStyles, setTypographyStyles] = useState([]);
+    const [gridStyles, setGridStyles] = useState([]);
+    const [effectsStyles, setEffectsStyles] = useState([]);
+
     const [selectedStyle, setSelectedStyle] = useState(null);
     const [styleAlias, setStyleAlias] = React.useState('');
 
     const updateStyles = (message) => {
         setColorStyles(message.colors);
+        setTypographyStyles(message.typography);
+        setGridStyles(message.grid);
+        setEffectsStyles(message.effects);
     };
 
     useEffect(() => {
@@ -27,11 +35,11 @@ const App = ({}) => {
         };
     }, []);
 
-    const renderStyleView = () => {
+    const renderStyleView = (collection, view) => {
         if (selectedStyle === null) {
             return (
                 <div>
-                    <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />
+                    <StyleListing setSelectedStyle={setSelectedStyle} type={view} collection={collection} />
                 </div>
             );
         } else {
@@ -42,6 +50,7 @@ const App = ({}) => {
                         setSelectedStyle={setSelectedStyle}
                         style={selectedStyle}
                         setStyleAlias={setStyleAlias}
+                        type={view}
                     />
                 </div>
             );
@@ -51,19 +60,19 @@ const App = ({}) => {
     const currentView = (view) => {
         switch (view) {
             case 'colors':
-                return renderStyleView();
+                return renderStyleView(colorStyles, view);
                 break;
             case 'typography':
-                return <div>{view}</div>;
+                return renderStyleView(typographyStyles, view);
                 break;
-            case 'sizes':
-                return <div>{view}</div>;
+            case 'grid':
+                return renderStyleView(gridStyles, view);
                 break;
             case 'effects':
-                return <div>{view}</div>;
+                return renderStyleView(effectsStyles, view);
                 break;
             default:
-                return <StyleJson value={colorStyles} />;
+                return <StyleJson value={[...colorStyles, ...typographyStyles, ...gridStyles, ...effectsStyles]} />;
                 break;
         }
     };
@@ -77,9 +86,3 @@ const App = ({}) => {
 };
 
 export default App;
-
-/*
-
-
-
-*/

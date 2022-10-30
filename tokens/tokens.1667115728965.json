@@ -1,0 +1,3924 @@
+{
+  "base": {
+    "accessible/amber/light/1": {
+      "id": "S:07a4bfe0e717c4024afae2a26a43c8cf3b6af2a4,",
+      "value": "#FEFDFB",
+      "type": "colors",
+      "description": {
+        "knownAliases": "XX,CC,DD"
+      }
+    },
+    "accessible/amber/light/2": {
+      "id": "S:b9d29971d289d720db3b73deceda710691d9e1d7,",
+      "value": "#FFF9ED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/3": {
+      "id": "S:e963ef71d74f6cf2c4ac69bf166db57e489e3833,",
+      "value": "#FFF4D5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/4": {
+      "id": "S:274acb120ae4154e66871890f8f47fc33fa22128,",
+      "value": "#FFECBC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/5": {
+      "id": "S:b692aeb30ecfc04366a6d0e7de2141d8d15f70dd,",
+      "value": "#FFE3A2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/6": {
+      "id": "S:673258b41f28f7a274fe0b4cf7ed691948b50e4a,",
+      "value": "#FFD386",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/7": {
+      "id": "S:bb31151c06f37218a166a356f18aad7ab85f5bc9,",
+      "value": "#F3BA63",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/8": {
+      "id": "S:b464c12654fdffea978af3463dcb65d0e7e77ebf,",
+      "value": "#EE9D2B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/9": {
+      "id": "S:ef82bcd1cef62142b3b650de7ad8e050a6f1b6ad,",
+      "value": "#FFB224",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/10": {
+      "id": "S:2ea82d733dd790bb2d8b6fba85bfeb506a93f8d7,",
+      "value": "#FFA01C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/11": {
+      "id": "S:6e5a9b66f0c024da08a3b8bcd571173b341438c3,",
+      "value": "#AD5700",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/light/12": {
+      "id": "S:cd8b1749d1a978dd69f2a5a94e5fea87673cd653,",
+      "value": "#4E2009",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/1": {
+      "id": "S:98af06789bb94173822c01613124490e8b8bbb48,",
+      "value": "#1F1300",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/2": {
+      "id": "S:f066fa5737b5cc084a8bd98bced4b029c9be66ee,",
+      "value": "#271700",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/3": {
+      "id": "S:af5a1e82508351e4883682f511893e79405f861b,",
+      "value": "#40181C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/4": {
+      "id": "S:686a9bb947f159d9777cf87a1363063164c26078,",
+      "value": "#3F2200",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/5": {
+      "id": "S:e35248e23d747f4d1e13ec542e9098a31693f8c7,",
+      "value": "#4A2900",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/6": {
+      "id": "S:6d19a866b916f6639b462641266419ab92c7cf77,",
+      "value": "#573300",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/7": {
+      "id": "S:8c69040b8ef5e9d60f32d10d4569315e4954f1d3,",
+      "value": "#693F05",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/8": {
+      "id": "S:59e184da0c663ace24733ad0ddb0b8544b6d3ff8,",
+      "value": "#824E00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/9": {
+      "id": "S:2d8aac19dd140c4b2705218a320e649d95115121,",
+      "value": "#FFB224",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/10": {
+      "id": "S:be1bad5548cae74b7f1a39451fa4da8b3b586380,",
+      "value": "#FFCB47",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/11": {
+      "id": "S:2fcc6115ec8846b8300c79044d4f216c9884d1c7,",
+      "value": "#F1A10D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/amber/dark/12": {
+      "id": "S:24180b17c48ce25a2053a610f8e439b394c29f98,",
+      "value": "#FEF3DD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/1": {
+      "id": "S:261891a1ddf5cfd9dab69b433d51af9fac22b6e2,",
+      "value": "#FBFDFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/2": {
+      "id": "S:a893b0fb7f6595060793aa78c7cfcae169700951,",
+      "value": "#F5FAFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/3": {
+      "id": "S:bbae5b968536982351838df3bf880b474eb45190,",
+      "value": "#EDF6FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/4": {
+      "id": "S:49f86aae9e5cd3972a2ab51ad76868de3db184a5,",
+      "value": "#E1F0FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/5": {
+      "id": "S:923b0b77ee394aa113aabda4d843bfdf395bd3c5,",
+      "value": "#CEE7FE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/6": {
+      "id": "S:420a1ea1d1a8e23fa62c08ae8a61a9b8053887fc,",
+      "value": "#B7D9F8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/7": {
+      "id": "S:f0a9120b808d5e582fb806e99817b731763f93a9,",
+      "value": "#96C7F2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/8": {
+      "id": "S:d0c87abc35de194db2898aae9ea8b9b86e3fd34b,",
+      "value": "#5EB0EF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/9": {
+      "id": "S:a92deef508057b342373940e3161b8ab64019e44,",
+      "value": "#0091FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/10": {
+      "id": "S:ae9afc605da5258fbfbe1ed1b4d03462dc87089d,",
+      "value": "#0081F1",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/11": {
+      "id": "S:de462fd2e9ff8bb1d6685475d6bc493b89d80c71,",
+      "value": "#006ADC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/light/12": {
+      "id": "S:2d742922462ca88a540e0775546df37147a727e8,",
+      "value": "#00254D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/1": {
+      "id": "S:cea519585714fceba4f73bc0396ad4a2c39b5ef1,",
+      "value": "#0F1720",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/2": {
+      "id": "S:e5cca1cd243aae9c7ee86f8def3a81b3c6bc1a34,",
+      "value": "#0F1B2D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/3": {
+      "id": "S:4d95a9905c0cc25a8ba842f4ed5d335e646962e9,",
+      "value": "#10243E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/4": {
+      "id": "S:56a40bc43527c5129f7697f9945bddbd58001f71,",
+      "value": "#102A4C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/5": {
+      "id": "S:48491adc2705f50fa70e1f749f31a78a5440d5bd,",
+      "value": "#0F3058",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/6": {
+      "id": "S:9a7b24268e7608716f446129bda534a57554973a,",
+      "value": "#0D3868",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/7": {
+      "id": "S:db510ca650019e3e76694fae9a817ebcbcd7dfd0,",
+      "value": "#0A4481",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/8": {
+      "id": "S:d54e63567d807b0795ef92d168914571cc126f5d,",
+      "value": "#0954A5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/9": {
+      "id": "S:66339be78011792239c07d0c2b60af914c79177c,",
+      "value": "#0091FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/10": {
+      "id": "S:1ae32d90a270871c7469224cfdbea6e8d927d473,",
+      "value": "#369EFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/11": {
+      "id": "S:a45dfe14230b048922e7acd7f62094efbdafbb1d,",
+      "value": "#52A9FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/blue/dark/12": {
+      "id": "S:a4db44e64ed7ff887cfaa54bed441667ebc52569,",
+      "value": "#EAF6FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/1": {
+      "id": "S:a799d5af8656c7bdf446cb4d1622e380b7c387a5,",
+      "value": "#FAFDFE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/2": {
+      "id": "S:3dd63fd7e82812d142714edc91ded8d1424a0612,",
+      "value": "#F2FCFD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/3": {
+      "id": "S:56041ba82873aedced12b450adac7a2ea08cb4f0,",
+      "value": "#E7F9FB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/4": {
+      "id": "S:dab0457f7d6cce3915357b7091ffdd5654390a13,",
+      "value": "#D8F3F6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/5": {
+      "id": "S:942e3be547b9d131a640d403f80ecab30af3d394,",
+      "value": "#C4EAEF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/6": {
+      "id": "S:bb670d47e1fe5e96208885e22a87639dea1a1f2e,",
+      "value": "#AADEE6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/7": {
+      "id": "S:c16a962108a63caef67eb738072e09486ae5914d,",
+      "value": "#84CDDA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/8": {
+      "id": "S:c1a1c880f384b3cdecf3b1ed0eac7725a3cc4d76,",
+      "value": "#3DB9CF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/9": {
+      "id": "S:f49d9e5da58aee05b22274c36a4d3e16c4473337,",
+      "value": "#05A2C2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/10": {
+      "id": "S:f600afe9377b01d2a5805dd3762dd25de2c75689,",
+      "value": "#0894B3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/11": {
+      "id": "S:0a232844f351925d4f2b6ddb062db7f93f14365a,",
+      "value": "#0C7792",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/light/12": {
+      "id": "S:1a763d4f1f124e290c2d338a9a98f3cbf6a3f92c,",
+      "value": "#04313C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/1": {
+      "id": "S:d6d5408a4c28d4fcacbb9c556d9f62e2db6bf5c0,",
+      "value": "#07191D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/2": {
+      "id": "S:13902a2a2e77bacb9eef15063c5a559d2ab2ea9c,",
+      "value": "#061E24",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/3": {
+      "id": "S:6e30b93499059a4129a3b0937223a4993b0788dd,",
+      "value": "#072830",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/4": {
+      "id": "S:0d9185b3b2caaa10ff5779f2e2d48695d5cba96f,",
+      "value": "#07303B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/5": {
+      "id": "S:8c72282ff5ec1645993230f3e0b66bd192fc968d,",
+      "value": "#073844",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/6": {
+      "id": "S:57536b19a2c5b01a3a0b978e33ce9716ecc06357,",
+      "value": "#064150",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/7": {
+      "id": "S:6d07faf839afe60cecd1289754b338551be6c4c1,",
+      "value": "#045063",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/8": {
+      "id": "S:b2bcb0ea5cfdf3c605e161588752d0dc5c00e1f9,",
+      "value": "#00647D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/9": {
+      "id": "S:324dd6f86ed39c99a8885740230a034feb022269,",
+      "value": "#05A2C2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/10": {
+      "id": "S:8eb7cc0c231d0d6f359e7d8d32867daca322fdfd,",
+      "value": "#00B1CC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/11": {
+      "id": "S:f0e98ad293bae521bac272d24e66829fa3570ecc,",
+      "value": "#00C2D7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/cyan/dark/12": {
+      "id": "S:da0764c8f63c5d9e475798f546c8cb98a880d568,",
+      "value": "#E1F8FA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/1": {
+      "id": "S:32170f3bba584266ce99c82c2a02caf779b09562,",
+      "value": "#FBFEFB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/2": {
+      "id": "S:38e5c58297348407e8d0dc5dba4401265684b099,",
+      "value": "#F3FCF3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/3": {
+      "id": "S:db0dacb1dc8898e3b7b1333e1c0771312150d744,",
+      "value": "#EBF9EB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/4": {
+      "id": "S:7819c7e6da13d8faccb7e40d150449cf397dd494,",
+      "value": "#DFF3DF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/5": {
+      "id": "S:18f8c3fa07cb7d4bd5ca11bf26792270b8b1e11a,",
+      "value": "#CEEBCF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/6": {
+      "id": "S:eb4dcb5764c99c7abbf0731b3ec89ba435b76516,",
+      "value": "#B7DFBA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/7": {
+      "id": "S:b19825a9a78e46d8993141d7e8ff97934fe4e74e,",
+      "value": "#97CF9C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/8": {
+      "id": "S:7618c1712018e8770835cb59cb016704a810955c,",
+      "value": "#65BA75",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/9": {
+      "id": "S:ea2a4b4423b0292c31393effeae34290822b43bf,",
+      "value": "#46A758",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/10": {
+      "id": "S:b5763861e99b8324477ab41a1decdf2a343a3577,",
+      "value": "#3D9A50",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/11": {
+      "id": "S:896b6d333c3c12b244eba4503f3e5a014662eb78,",
+      "value": "#297C3B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/light/12": {
+      "id": "S:916aab1fca677ba968df8bbc3ae991f27c5e6ca2,",
+      "value": "#1B311E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/1": {
+      "id": "S:0cff71db5092bb15601a1a8f4b0ba86eda055947,",
+      "value": "#0D1912",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/2": {
+      "id": "S:4ae3bd7bb4ffe767055edba48c8a948ab7bb7720,",
+      "value": "#0F1E13",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/3": {
+      "id": "S:936c3a70f98e49b09cab27f051aeff38ac32918f,",
+      "value": "#132819",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/4": {
+      "id": "S:1018399b53e6cf9c02ccd600e48a700e6cfdfd77,",
+      "value": "#16301D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/5": {
+      "id": "S:7b7aebf86e3085299e462f6eda6731db37d168f1,",
+      "value": "#193921",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/6": {
+      "id": "S:e856ceb5e9b55775eb86ced015cc2fd04b2e0b23,",
+      "value": "#1D4427",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/7": {
+      "id": "S:51bcfca34c7928c60e8b5682c1028c49b1331c6f,",
+      "value": "#245530",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/8": {
+      "id": "S:d7de0e4fefd57efeb6b435adeb2e1faa93f0f0d5,",
+      "value": "#2F6E3B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/9": {
+      "id": "S:493d95f33b8a2a61c03c4ce631cc91417e0157b5,",
+      "value": "#46A758",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/10": {
+      "id": "S:41138634a03f5d6cccf31cd9340466ff19c9ac28,",
+      "value": "#55B467",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/11": {
+      "id": "S:bf5dd6c90d5a8faf3c24de58c931b889c9882489,",
+      "value": "#63C174",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/grass/dark/12": {
+      "id": "S:cbb54e175e556c8beb0e2af7e167a41e127683f0,",
+      "value": "#E5FBEB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/1": {
+      "id": "S:206b4872500186aaee737b5d2ba95f009548b5c8,",
+      "value": "#FCFCFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/2": {
+      "id": "S:2b5e5a470af4b96eaac8f9ec8ffe3ef887865108,",
+      "value": "#F8F8F8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/3": {
+      "id": "S:2a2ad7b9fb1e84e03b7f174eebcd34955fd5f68c,",
+      "value": "#F3F3F3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/4": {
+      "id": "S:8bd4e434619b22d9ae9656792c24c55f21d14d2b,",
+      "value": "#EDEDED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/5": {
+      "id": "S:65c49e6e21f21bd1672c05bfbd84b8383f54332c,",
+      "value": "#E8E8E8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/6": {
+      "id": "S:ad5ec1c28fbb7a8d5e1f4f9f4f297fb13c115cf1,",
+      "value": "#E2E2E2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/7": {
+      "id": "S:b836f6d7ff8c6568e7a820f941d7b8a3268396a9,",
+      "value": "#DBDBDB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/8": {
+      "id": "S:5c71e74d72a2c251f4b8b493f0bec8db18fa5e77,",
+      "value": "#C7C7C7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/9": {
+      "id": "S:4c88ea5992bdfb095e56c74ca075f46b77577933,",
+      "value": "#8F8F8F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/10": {
+      "id": "S:acdd8be0ae4677b3ddbc9fc8a9c93ab4617c1152,",
+      "value": "#858585",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/11": {
+      "id": "S:a34e215046c034f74ea5b6072a36301fe8ee7db2,",
+      "value": "#6F6F6F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/light/12": {
+      "id": "S:673455a69f59f2ba3897c63f88068d8b9b0383ca,",
+      "value": "#171717",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/1": {
+      "id": "S:ab2766584241bec0fdbd552a7c6d4b95dc389167,",
+      "value": "#161616",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/2": {
+      "id": "S:ddcf1bf3ec9430c15c460266f93d0837bfc3a0b7,",
+      "value": "#1C1C1C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/3": {
+      "id": "S:5be90e5285bea427ffb255672041935c9ef4df97,",
+      "value": "#232323",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/4": {
+      "id": "S:4e0bdf7c4b552c58f76cc2c9b576e397a97bc58d,",
+      "value": "#282828",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/5": {
+      "id": "S:c4c37071cd226457a7836d3ab0916f58aa5e6c1e,",
+      "value": "#2E2E2E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/6": {
+      "id": "S:601fb1e4dfcba295ddb98f3d0fbbedaf711d05b7,",
+      "value": "#343434",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/7": {
+      "id": "S:d838dcdb34dce781be59d1433dc61cc9fbbbd548,",
+      "value": "#3E3E3E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/8": {
+      "id": "S:cea88397edfb1579504c087db787089950a12a89,",
+      "value": "#505050",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/9": {
+      "id": "S:8969f72de686597c964b5f321c96ab48f12bed64,",
+      "value": "#707070",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/10": {
+      "id": "S:ffc84606f901f9e7feea1a2d5f7e27ab59c4218d,",
+      "value": "#7E7E7E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/11": {
+      "id": "S:4ae58978f63441b7ed9ed186f862cec2cfaff932,",
+      "value": "#A0A0A0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/gray/dark/12": {
+      "id": "S:204fce1c4d99c6e83133cf3afeab18e87e1c467b,",
+      "value": "#EDEDED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/1": {
+      "id": "S:1071bd3eb556e7c09ff026cc8e8a7484a9022a32,",
+      "value": "#FBFEFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/2": {
+      "id": "S:67c35115b17ae381ff63e4e1ce1bb0a531145462,",
+      "value": "#F2FCF5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/3": {
+      "id": "S:66e02917c0bf7d1137d233721d84128b03447171,",
+      "value": "#E9F9EE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/4": {
+      "id": "S:a8b871002d79cbfc9f2e06266635a76f11fefc4c,",
+      "value": "#DDF3E4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/5": {
+      "id": "S:a442f1974619fbbcc382bf40eb01744db64c40f7,",
+      "value": "#CCEBD7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/6": {
+      "id": "S:d805bf15dad19b306313b9f941492c44a46fdf80,",
+      "value": "#B4DFC4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/7": {
+      "id": "S:1c8bc3e51c2df72fb053881c1a0482021b5839ea,",
+      "value": "#92CEAC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/8": {
+      "id": "S:f370fceaafce82a7e3a994826dbc0c32d40c44ff,",
+      "value": "#5BB98C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/9": {
+      "id": "S:1e18c689a9a959feeabc4870b55a5602635e88be,",
+      "value": "#30A46C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/10": {
+      "id": "S:331a21ed2d9e9a44d7fc04f077d87909b5d3bde1,",
+      "value": "#299764",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/11": {
+      "id": "S:4c69218cc8aa993fda5a04d2ed57e9050ea35e0c,",
+      "value": "#18794E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/light/12": {
+      "id": "S:5c78f4f57b74e7b919292af868ef4d08d41e177e,",
+      "value": "#153226",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/1": {
+      "id": "S:59d1931da082021cc33282e22edbfb64e8813a4f,",
+      "value": "#0D1912",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/2": {
+      "id": "S:ea4d2f30da02769f8abd1bc4a5cf9c25dc94eeb4,",
+      "value": "#0C1F17",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/3": {
+      "id": "S:59ac9386e31fb9beeecb9d5ad06591f1b6880aa1,",
+      "value": "#0F291E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/4": {
+      "id": "S:dca0dff8c4b5bad82640fcb6a1188f430de58f6a,",
+      "value": "#113123",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/5": {
+      "id": "S:3c70a70170dd5885ea54b880fc7fa0332f6dddb4,",
+      "value": "#133929",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/6": {
+      "id": "S:b412f9ba36c0182639b0ce94f216ed0cc21d3235,",
+      "value": "#164430",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/7": {
+      "id": "S:ae7cac563162441eedae0619563cb7d8ff21f9d8,",
+      "value": "#1B543A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/8": {
+      "id": "S:ff28ef9d6503d9888959bbcca459c6e261c78492,",
+      "value": "#236E4A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/9": {
+      "id": "S:cb89cbafa07a6b0a519067e2f6731dac10edb2bb,",
+      "value": "#30A46C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/10": {
+      "id": "S:148c3da71f04b043b29dc89e0a3a25ef69745b5b,",
+      "value": "#3CB179",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/11": {
+      "id": "S:f8e745407f41742a575a4abf8ef45470690bd36e,",
+      "value": "#4CC38A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/green/dark/12": {
+      "id": "S:0e2301ad36586780c399c99e7b51b67b5d07f2f1,",
+      "value": "#E5FBEB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/1": {
+      "id": "S:4e97551d7b7bf0b0efa4e0b078de9520b8f654d8,",
+      "value": "#FDFDFE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/2": {
+      "id": "S:b74f388dd8023c4551da4b320be84bbae846a632,",
+      "value": "#F8FAFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/3": {
+      "id": "S:9a17732d5f7772bad8f2d93a6677bea9719adb0f,",
+      "value": "#F0F4FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/4": {
+      "id": "S:f9b6a505d6e6678eccb6a4903aed38f5b3b47b8d,",
+      "value": "#E6EDFE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/5": {
+      "id": "S:25151015ef7e0653b13ee0698f4ca7f146ecb84a,",
+      "value": "#D9E2FC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/6": {
+      "id": "S:7764318d1c816cb936ebaeb7a529c319b22c53f3,",
+      "value": "#C6D4F9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/7": {
+      "id": "S:957b835dd80cd2c5717b0d21c860d8aecd902bd1,",
+      "value": "#AEC0F5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/8": {
+      "id": "S:587ed941bc26ba311d2b5e5132ac9a3dabbf13a4,",
+      "value": "#8DA4EF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/9": {
+      "id": "S:ea5c6efef2f7557a987ea4163e6584a0b6626ad9,",
+      "value": "#3E63DD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/10": {
+      "id": "S:62eae9a0a750b6f262067ab852a77cca3cb7f20b,",
+      "value": "#3A5CCC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/11": {
+      "id": "S:391c53959ca5ad3cbc3697fb57342a085dff3023,",
+      "value": "#3451B2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/light/12": {
+      "id": "S:57f6a1a918f78bed56916132ce93344ba2131ed8,",
+      "value": "#101D46",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/1": {
+      "id": "S:a34149b5ef799f82abee43664fc4e69fd2cdd330,",
+      "value": "#131620",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/2": {
+      "id": "S:ff78d680524aabd6bbeef274adcc4dcbc104b2e3,",
+      "value": "#15192D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/3": {
+      "id": "S:8fae928ccadf8b3bfdb94a38266b52203a7d0cdb,",
+      "value": "#192140",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/4": {
+      "id": "S:8b8e3f4f9c0b5fa87d1fe2ce263f6baba7c4dbd8,",
+      "value": "#1C274F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/5": {
+      "id": "S:deebdd45a20462e51cbc3de882c9c890db9b45f0,",
+      "value": "#1F2C5C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/6": {
+      "id": "S:d7b6f7f6d27eb2aec9a7adc8e733277715335293,",
+      "value": "#22346E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/7": {
+      "id": "S:30706ae43e6a7eb12b9033a443bf9155f077bfa5,",
+      "value": "#273E89",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/8": {
+      "id": "S:8c72227d4e94f6c78cb5d86cecf7ac3d8a32447d,",
+      "value": "#2F4EB2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/9": {
+      "id": "S:95c6ed83706bb52d6cfeaf670e0892fe8d610e49,",
+      "value": "#3E63DD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/10": {
+      "id": "S:565bc3238c623e13bf66b8c34d04942a3ae388f3,",
+      "value": "#5373E7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/11": {
+      "id": "S:19f6c291056273cb46b25b3f9962ca63310cdafc,",
+      "value": "#849DFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/indigo/dark/12": {
+      "id": "S:03467f372011c2012e7e53016a1f8394d99c20e2,",
+      "value": "#EEF1FD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/1": {
+      "id": "S:b77d056c3329410aaa20ce82b1dee68eff09e8f7,",
+      "value": "#FCFDFA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/2": {
+      "id": "S:2753d0b3934038eb322c0ffba0f1cee5b533ba12,",
+      "value": "#F7FCF0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/3": {
+      "id": "S:02b51edd966efe23fb443c08f7fa1f54016a11d2,",
+      "value": "#EEFADC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/4": {
+      "id": "S:901e40faf53e6c74494c372231f8f705db830da2,",
+      "value": "#E4F7C7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/5": {
+      "id": "S:a690c31046effed092b599d2453c4607101016bc,",
+      "value": "#D7F2B0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/6": {
+      "id": "S:27dc95962909386d2103c580d0f80c6e40fe1e74,",
+      "value": "#C9E894",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/7": {
+      "id": "S:ae53e78e0ff486aece3979c550d989b70317d727,",
+      "value": "#B1D16A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/8": {
+      "id": "S:4e326fde862f0bb1e22c05aa9a08cc21b7bdca9e,",
+      "value": "#94BA2C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/9": {
+      "id": "S:8e5334bb18e025c0fa3dfc3573937143016dd1e4,",
+      "value": "#99D52A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/10": {
+      "id": "S:ef4fd1ed91f907d5446fa6ddffb9b582b4151a77,",
+      "value": "#93C926",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/11": {
+      "id": "S:e7996b79e012c0e3574f6d9fae9df970053849bb,",
+      "value": "#5D770D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/light/12": {
+      "id": "S:2f5d48b749d1a4d86097524755d872d8ff040df0,",
+      "value": "#263209",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/1": {
+      "id": "S:2e774a589f248d9d9f0dd86a32f6e26fb3764aad,",
+      "value": "#141807",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/2": {
+      "id": "S:73200665326098ff71c2e6f4815b8aede6da7780,",
+      "value": "#181D08",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/3": {
+      "id": "S:8f9316f7296e1060d434d4d3f9d677fe7f5393c3,",
+      "value": "#1E260D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/4": {
+      "id": "S:196f878b94b3e29341f731cf286c9f9c83392f0b,",
+      "value": "#252E0F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/5": {
+      "id": "S:eb0f96b576181cda38be85dfd0d1aca6c39d322f,",
+      "value": "#2B3711",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/6": {
+      "id": "S:ed0298a6d31012847848d95677879f231e490c5b,",
+      "value": "#344213",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/7": {
+      "id": "S:0fa3b21f18de0493959c8a6ea60bde590d8d574a,",
+      "value": "#415215",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/8": {
+      "id": "S:bcc4e41e35a656e283eed22c6e60dcee33c05c35,",
+      "value": "#536716",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/9": {
+      "id": "S:1b26f67593be80709f4acad87a13f716aad253d3,",
+      "value": "#99D52A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/10": {
+      "id": "S:62651f04d32ba349f6b767d62cd107309accd24c,",
+      "value": "#C4F042",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/11": {
+      "id": "S:df3ef92bb68cb330d6b10d5e40c23240e0a5c960,",
+      "value": "#87BE22",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/lime/dark/12": {
+      "id": "S:decd1ec3798bee680e6f7ee3d9cc1ad2a48745a9,",
+      "value": "#EFFBDD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/1": {
+      "id": "S:da4b5c4d85711abafe16c03e813ebbfbf546091a,",
+      "value": "#FEFCFB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/2": {
+      "id": "S:f11dd8f2c2ac6fec28762d6503a6568349bce84f,",
+      "value": "#FEF8F4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/3": {
+      "id": "S:a7f1d77722537d3f3aaf54fa61453c2f742f322a,",
+      "value": "#FFF1E7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/4": {
+      "id": "S:3e81650164aa0ad924375447a2188a454ee79d4b,",
+      "value": "#FFE8D7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/5": {
+      "id": "S:b7921bd2d7d32f0f20fa3bbaf2030153907b7e33,",
+      "value": "#FFDCC3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/6": {
+      "id": "S:c17848a16a6b18d32ebcafca7f4ee5acd0beacfb,",
+      "value": "#FFCCA7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/7": {
+      "id": "S:9fffdc4e404f3c7a2de8df7034d98b4c2bc5675e,",
+      "value": "#FFB381",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/8": {
+      "id": "S:bf0c62e123caec86edab82cb7e2d25f879b20baa,",
+      "value": "#FA934E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/9": {
+      "id": "S:49d3b3a98b9d55d3a5e28277e2ce045413569ab4,",
+      "value": "#F76808",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/10": {
+      "id": "S:f0fb5be98ebd10dcacb66fb8606ca500999b1a5c,",
+      "value": "#ED5F00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/11": {
+      "id": "S:466234bde1aabc075c05b8da6f071d27a78b5917,",
+      "value": "#BD4B00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/light/12": {
+      "id": "S:63130bdbc3f434747b5aeab2cd85d925b22625e0,",
+      "value": "#451E11",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/1": {
+      "id": "S:b04442e63933acec1de74e51cd723b44b6e0aa6d,",
+      "value": "#1F1206",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/2": {
+      "id": "S:1305c7959dd9d398504a435e06ca60cd39873b37,",
+      "value": "#2B1400",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/3": {
+      "id": "S:b752bc1a5c70b6f9e9e8ba870e0a7637a0abcdf8,",
+      "value": "#391A03",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/4": {
+      "id": "S:893a2f92790c1deaf362357c66980aa0bb4e0930,",
+      "value": "#441F04",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/5": {
+      "id": "S:e801307219eb5df39dc05648e27819ae5793d159,",
+      "value": "#4F2305",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/6": {
+      "id": "S:27c828f06231a3503ad00f9c7375f1d251e9f924,",
+      "value": "#5F2A06",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/7": {
+      "id": "S:e0970e9d685c18f455aafb2595bae70a94dd7d88,",
+      "value": "#763205",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/8": {
+      "id": "S:17dfe8dc05b7e4e7a78c9b8887bec7a8a8c3c670,",
+      "value": "#943E00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/9": {
+      "id": "S:6316b5ce550ebb1f4d427c35fb94d4c23942a531,",
+      "value": "#F76808",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/10": {
+      "id": "S:333082569ffb1b3b989650872e7126630c657bd1,",
+      "value": "#FF802B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/11": {
+      "id": "S:bb8112138a55e6797cc213650bb8779e7811d26c,",
+      "value": "#FF8B3E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/orange/dark/12": {
+      "id": "S:3113819b612bc45a6d97bb830ca98afb1e3d6d9e,",
+      "value": "#FEEADD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/1": {
+      "id": "S:d7c656520ccb5abf5e9dd6133ea565f469bc5f07,",
+      "value": "#FCFDFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/2": {
+      "id": "S:92d3406aa17f2302094934de5d6deda10adabc09,",
+      "value": "#F8FAF8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/3": {
+      "id": "S:11b5ffd8b482094ebd46fbcb6c185c4d8ad1d6c2,",
+      "value": "#F2F4F2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/4": {
+      "id": "S:52324ec440ce7ccd8f91314fb9b6be20fcfbfdd9,",
+      "value": "#ECEFEC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/5": {
+      "id": "S:e8eef066312643fd5742a444189045f56b161501,",
+      "value": "#E6E9E6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/6": {
+      "id": "S:65f6d2fb4081e727b63831e63bdbc52532ab8145,",
+      "value": "#E0E4E0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/7": {
+      "id": "S:9958c11d0497af34817872c62c06b52b07a916f1,",
+      "value": "#D8DCD8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/8": {
+      "id": "S:864d260b0d567a056e651ba3d7947c9dabd77330,",
+      "value": "#C3C8C2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/9": {
+      "id": "S:2a6d473d30d937169380e98775947cd2cfb81b5f,",
+      "value": "#8B918A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/10": {
+      "id": "S:703fbc6224835d98033945302f247b04a00a73d6,",
+      "value": "#818780",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/11": {
+      "id": "S:36aef45a7edb8ef90632285b4adef43b2571606f,",
+      "value": "#6B716A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/light/12": {
+      "id": "S:d16fbf7e751ee753835368fed8c3c2dc8165c285,",
+      "value": "#141E12",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/1": {
+      "id": "S:6f972d658096374815ecccdab3a9e6805df53865,",
+      "value": "#151715",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/2": {
+      "id": "S:5a698f1f741467c51de654cc263fa343e19dfb4e,",
+      "value": "#1A1D19",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/3": {
+      "id": "S:982bf46d45451a31c22bb95b85d403fc7a3c1af3,",
+      "value": "#20241F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/4": {
+      "id": "S:f093ff0e3a265870fd29281e8092dc3b536d70e8,",
+      "value": "#262925",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/5": {
+      "id": "S:a9f98a264a29c57d5fb259f9ffd3b15d84f94cf4,",
+      "value": "#2B2F2A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/6": {
+      "id": "S:5466b28e22ce3ad1d9eec4d0187e1054c1738fb0,",
+      "value": "#313530",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/7": {
+      "id": "S:4567cbbd2049cdf06603e860f8b93d6d6178db69,",
+      "value": "#3B3F3A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/8": {
+      "id": "S:bdf3b641dcc78c0c809e6a64d1bbe51533433a8a,",
+      "value": "#4C514B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/9": {
+      "id": "S:d5f27d541d936ea641bb67030c64cd24ab821f3c,",
+      "value": "#687366",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/10": {
+      "id": "S:73cdf7513e8eb9c91b1ffac2fb4fadbb5f25c65b,",
+      "value": "#778175",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/11": {
+      "id": "S:258304bb37c137cba0639aa404c8a30593b1c986,",
+      "value": "#9AA299",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/olive/dark/12": {
+      "id": "S:0f337a118961dbe7a43419be9bcbe7d3841f6723,",
+      "value": "#ECEEEC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/1": {
+      "id": "S:87429eeedbea7023d3bc3b927dca204590c659f2,",
+      "value": "#FFFCFE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/2": {
+      "id": "S:8d08aae505ca6ddb17eea85e7b3e2a756e72284e,",
+      "value": "#FFF7FC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/3": {
+      "id": "S:167b3013da2b2960e5ef7790631c598a59205055,",
+      "value": "#FEEEF8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/4": {
+      "id": "S:ae917d4b67fb59d07a6e448ccfcc112853194656,",
+      "value": "#FCE5F3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/5": {
+      "id": "S:6a26c80ac78b9a2de3b641420076cb125cb1b5b6,",
+      "value": "#F9D8EC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/6": {
+      "id": "S:e8af863c9bc45e42bbeca5db6fc3f851379f4f7c,",
+      "value": "#F3C6E2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/7": {
+      "id": "S:23de3515c8b9c34a66107aa4f609621f78e86a16,",
+      "value": "#ECADD4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/8": {
+      "id": "S:0ce195268b773f0e91eb83a69e35e933d2ebbaa4,",
+      "value": "#E38EC3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/9": {
+      "id": "S:6f581e5e4c1283f7a2ecfe2df760e1fc6ac47b3f,",
+      "value": "#D6409F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/10": {
+      "id": "S:ef023669a8482b097bece63a41715ab7ab41e6c9,",
+      "value": "#D23197",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/11": {
+      "id": "S:9993d0e6d905dc95a718c5f1f6ba5c4ef953a8f7,",
+      "value": "#CD1D8D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/light/12": {
+      "id": "S:7e1426d51f436ff7cee6b03f494b5e6ad5ddb475,",
+      "value": "#3B0A2A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/1": {
+      "id": "S:f7d8bccee30746bc2337ecfdc720f65e1584f4ec,",
+      "value": "#1F121B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/2": {
+      "id": "S:e3da0be17afbb0c9b4662656f6eb8641da785ddb,",
+      "value": "#271421",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/3": {
+      "id": "S:fe1f6340564dd37dee4431f0be8c13f066a885b2,",
+      "value": "#3A182F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/4": {
+      "id": "S:16ee6904ac73bd336ade5665d27b4603d6827a96,",
+      "value": "#451A37",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/5": {
+      "id": "S:7eb4199179e9dde848821d9792a36a4bebe07fda,",
+      "value": "#501B3F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/6": {
+      "id": "S:cf4daa8e59596c6be6cc353a08ffd5332e98d0cb,",
+      "value": "#601D48",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/7": {
+      "id": "S:573680ee2a9694cba50fd283051ad020a0953c09,",
+      "value": "#7A1D5A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/8": {
+      "id": "S:9c9d228bcb8643a982a47e8dafceb5f9ac6149ee,",
+      "value": "#A71873",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/9": {
+      "id": "S:2dc964c8fdea070b4e513baae9e2dc532826cf11,",
+      "value": "#D6409F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/10": {
+      "id": "S:3ff6d5b236e6a69518dc80fd91ee6c8e6f792f05,",
+      "value": "#E34BA9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/11": {
+      "id": "S:d82648853a897b39dff31b62ac34c7f59f1ccab4,",
+      "value": "#F65CB6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/pink/dark/12": {
+      "id": "S:75a15d90aa750bdc68d2676e4aa5f940d01a73d7,",
+      "value": "#FEEBF7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/1": {
+      "id": "S:9a1724e4c4440fe1f7cf841332c131b23f61d374,",
+      "value": "#FEFCFE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/2": {
+      "id": "S:7012c6895f7c2fb46261c634fcd41d3c76c3ac76,",
+      "value": "#FDFAFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/3": {
+      "id": "S:c8a16bbf6b7cd3b1f41bcc3c6cfd8a75f177c7d8,",
+      "value": "#F9F1FE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/4": {
+      "id": "S:549bf17cbbe762633b55097a51b55fddf15d94f4,",
+      "value": "#F3E7FC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/5": {
+      "id": "S:e907a7018da261099e651e08e1a93cdd06316030,",
+      "value": "#EDDBF9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/6": {
+      "id": "S:b4f4ae86083a79a86a068abff3aa080b7721cf6f,",
+      "value": "#E3CCF4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/7": {
+      "id": "S:1910b044366846fe418514142892498434df0114,",
+      "value": "#D3B4ED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/8": {
+      "id": "S:4cd2192e8b8e88b7df4a8416fc0a5f980d21c811,",
+      "value": "#BE93E4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/9": {
+      "id": "S:6db7460a65980f84ebc0deed217efe60dad644f1,",
+      "value": "#8E4EC6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/10": {
+      "id": "S:d4265fb6897ca054dca90c66b0d636a28f8c2337,",
+      "value": "#8445BC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/11": {
+      "id": "S:a896beac0979f8ffee51f04095d680cfcbd3c6e1,",
+      "value": "#793AAF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/light/12": {
+      "id": "S:0b3a54edfaa151723615df2a14837701591dc81d,",
+      "value": "#2B0E44",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/1": {
+      "id": "S:51f4bf1a28b4741db9a4dd6bfbd13f1d40da2fee,",
+      "value": "#1B141D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/2": {
+      "id": "S:375d84fd6b3b9dd61c0e0e4f79e2058982953004,",
+      "value": "#221527",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/3": {
+      "id": "S:7b8f8211ce9c6c9a8397ac145b38f1c87744bdbd,",
+      "value": "#301A3A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/4": {
+      "id": "S:22a0bbdeb3cb3bc3385a26cea465e6178cfff79c,",
+      "value": "#3A1E48",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/5": {
+      "id": "S:a16cb220dad977445645508a51286b91bbc60051,",
+      "value": "#432155",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/6": {
+      "id": "S:38ad24b9a8f39e5304d143423360b9c9230e0d63,",
+      "value": "#4E2667",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/7": {
+      "id": "S:8416cbc3bbdb537f91b7e43a316490a543039ce0,",
+      "value": "#5F2D84",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/8": {
+      "id": "S:228d8b3c7509a90637b28d6f944f633c497e2b47,",
+      "value": "#7938B2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/9": {
+      "id": "S:80ec1c82f1bb3914bf88cdb85722f62825c08766,",
+      "value": "#8E4EC6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/10": {
+      "id": "S:625122eb4a21828dd5c819325112d9c2f37a9807,",
+      "value": "#9D5BD2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/11": {
+      "id": "S:841a4618db571e031d2af01ee2472534a7b03655,",
+      "value": "#BF7AF0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/purple/dark/12": {
+      "id": "S:6920afbaf0745b24adbd615c18476bb96075b3a6,",
+      "value": "#F7ECFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/1": {
+      "id": "S:a06b83ff08f0b1268696ff1522b86a74fd403e64,",
+      "value": "#FAFEFD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/2": {
+      "id": "S:131b06412645fedfaa99bf7271b5f214d2981891,",
+      "value": "#F1FCFA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/3": {
+      "id": "S:39a035f101774f3d5d4afef3ed52707f1c8489c9,",
+      "value": "#E7F9F5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/4": {
+      "id": "S:0bc232af04973fc424e29e3b865d2d533286206e,",
+      "value": "#D9F3EE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/5": {
+      "id": "S:417bae26db873c456a27e0486d9a176216fadae6,",
+      "value": "#C7EBE5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/6": {
+      "id": "S:32c754e4329e712518fd2f2c3e5a6e5208d76348,",
+      "value": "#AFDFD7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/7": {
+      "id": "S:9d4796219c5926e80a3d5f7ce4640edaf2e2a696,",
+      "value": "#8DCEC3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/8": {
+      "id": "S:b3195ea06606429710e7aec456ebb37190d02eed,",
+      "value": "#53B9AB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/9": {
+      "id": "S:3e00d1aac4ba29371b5b6808298e0dd9d042a4bd,",
+      "value": "#12A594",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/10": {
+      "id": "S:0581df8131c48e63e2daa6a39565f217195a1b7e,",
+      "value": "#0E9888",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/11": {
+      "id": "S:46b92dc731475056aaa88adbe206e5159c01c255,",
+      "value": "#067A6F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/light/12": {
+      "id": "S:d7151a7e52f719c072397ed4c77e6d26732dae00,",
+      "value": "#10302B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/1": {
+      "id": "S:ae2067019978bdaf6203d5c2b6f4fd799a7b9fba,",
+      "value": "#091915",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/2": {
+      "id": "S:d54d3e7905d6c433ed1d743dbf91d4ff22a277e8,",
+      "value": "#04201B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/3": {
+      "id": "S:5b82a97eb7b1986bf0b9f5cf38b0c0c3e990c13c,",
+      "value": "#062923",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/4": {
+      "id": "S:ccf61574e89b632457c9ea2fd7770383cecf1370,",
+      "value": "#07312B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/5": {
+      "id": "S:0cc28974d3fb5014ba2a1a4fdc7e298d9d01da69,",
+      "value": "#083932",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/6": {
+      "id": "S:9407e06ee4e55ef8de74f8da1ed0cffad2eabae6,",
+      "value": "#09443C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/7": {
+      "id": "S:39c83b3338c011d3d16a630011c4de3bb6cee225,",
+      "value": "#0B544A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/8": {
+      "id": "S:d220e9b30f893ca8769b06d6442afef22de6f583,",
+      "value": "#0C6D62",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/9": {
+      "id": "S:59258e17d8199eb943c90a56746c3cbccbfdb9c8,",
+      "value": "#12A594",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/10": {
+      "id": "S:95d29a4e1fe072bb2a782118487a07997a0debbd,",
+      "value": "#10B3A3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/11": {
+      "id": "S:eb590a6c2a79463a0cf3330c44efc036f81326f0,",
+      "value": "#0AC5B3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/teal/dark/12": {
+      "id": "S:e5642be3eb88dfae2cb7f66df730dd441c8f5a90,",
+      "value": "#E1FAF4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/1": {
+      "id": "S:31ede309e47547fe4ff00c29c1580b78a59af480,",
+      "value": "#FFFCFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/2": {
+      "id": "S:458f3eba1da352b7ce548430679ca750ede2a146,",
+      "value": "#FFF8F7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/3": {
+      "id": "S:0e158c0fbdf500f203d3be8e020a034ba08f860c,",
+      "value": "#FFF0EE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/4": {
+      "id": "S:7882761d2f76f54f4a1c19f844fa0636419be5ba,",
+      "value": "#FFE6E2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/5": {
+      "id": "S:134060fcb04cfcec82c5945e9859d796fe1fd70a,",
+      "value": "#FDD8D3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/6": {
+      "id": "S:640f78e67d82b6031c8286bfe3800bc0ab7a5bf7,",
+      "value": "#FAC7BE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/7": {
+      "id": "S:717e038e2e2fcfd86779e11af21ebb22fe4afd16,",
+      "value": "#F3B0A2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/8": {
+      "id": "S:dfbd6746b51dea206b93ffc83f86736c75d9ce1d,",
+      "value": "#EA9280",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/9": {
+      "id": "S:a9221674095af35f0f93163b827adf16da1e7971,",
+      "value": "#E54D2E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/10": {
+      "id": "S:01aae5ba2fb68bb18314d3d3329a04e05c031584,",
+      "value": "#DB4324",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/11": {
+      "id": "S:a9877b975bb259636d8d571e2b90adf56c1c612b,",
+      "value": "#CA3214",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/light/12": {
+      "id": "S:dadb4e4d8818ef3e18740ec48203357e6aa3ca9f,",
+      "value": "#341711",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/1": {
+      "id": "S:94dc6d2bc30cde94a54768847625e1e580b13cac,",
+      "value": "#1D1412",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/2": {
+      "id": "S:15ad51e12aa5f26ae7d24bb699d6b15f44bababe,",
+      "value": "#2A1410",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/3": {
+      "id": "S:f9a5cc20e898eca97e48716c28036a206a78c141,",
+      "value": "#3B1813",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/4": {
+      "id": "S:5e3b9fbb69e91af193dc69e1e664a4f934c6c55e,",
+      "value": "#481A14",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/5": {
+      "id": "S:6170450102aa7e43721af002bf2dfae7c71dced7,",
+      "value": "#541C15",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/6": {
+      "id": "S:97e339921776e096455f78f77d1899aebb7f8c42,",
+      "value": "#652016",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/7": {
+      "id": "S:8d9b36c23c02ef45338c5b0524bf4679c5a1aa98,",
+      "value": "#7F2315",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/8": {
+      "id": "S:cd87c062239a58e0a8b0f1b971834df5ac6c55af,",
+      "value": "#A42A12",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/9": {
+      "id": "S:402e586f5d3d06a63a1d9c4e1d7a40b9fde6024c,",
+      "value": "#E54D2E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/10": {
+      "id": "S:546b26e6f758f2058ce873e64cfc14d96e84b50f,",
+      "value": "#EC5E41",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/11": {
+      "id": "S:ac206fe99a79a5f16a96d4b435a8d99740ee6ba6,",
+      "value": "#F16A50",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/tomato/dark/12": {
+      "id": "S:7b7ff3fc502cded94e0518faf5257fea497499a5,",
+      "value": "#FEEFEC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/1": {
+      "id": "S:76b4f264f48b87f1da1b1c7eb43b878e8b9f0d8d,",
+      "value": "#FFFCFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/2": {
+      "id": "S:637cde8a31f83a47cad4eb5efc986c49112e719f,",
+      "value": "#FFF8F8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/3": {
+      "id": "S:e4a783e621f94089334b668921e5416e82c5ac59,",
+      "value": "#FFEFEF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/4": {
+      "id": "S:360781710c45ce633abef0dbf90614f5556d23db,",
+      "value": "#FFE5E5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/5": {
+      "id": "S:311cc58ac0b4a1cf651e28c5a4db7e4f93386bdd,",
+      "value": "#FDD8D8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/6": {
+      "id": "S:52c83c9db26632060e2ff452edf4f303c965aec4,",
+      "value": "#F9C6C6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/7": {
+      "id": "S:0312096721b189b1ea3d971772f42d290f644021,",
+      "value": "#F3AEAF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/8": {
+      "id": "S:38418d1c5c194ea0d27a897e90f281efff13d667,",
+      "value": "#EB9091",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/9": {
+      "id": "S:2e6932b04bd104c977b80cb7907e102b3f6845fc,",
+      "value": "#E5484D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/10": {
+      "id": "S:f1df5ddca6de0c155d9077d040911fc5d82afa2c,",
+      "value": "#DC3D43",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/11": {
+      "id": "S:76704b19bb8f1e0baad033ebd57ea14801cf3491,",
+      "value": "#CD2B31",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/light/12": {
+      "id": "S:083bd96f966745323d40ac2ac1affcbca8d9b507,",
+      "value": "#381316",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/1": {
+      "id": "S:bb2fbd14a2fa095b1f369ee7c1455462b3b61988,",
+      "value": "#1F1315",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/2": {
+      "id": "S:462fb20ba3f5fde1c37011a7478311bf6eafd06b,",
+      "value": "#291415",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/3": {
+      "id": "S:7473504f7b232fcbf3564ee0ca7164d2a4b1befe,",
+      "value": "#3C181A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/4": {
+      "id": "S:9ec46e1af3d503ee8c0d103fe441f64ebe9c2166,",
+      "value": "#481A1D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/5": {
+      "id": "S:92977628ff0fbfed8552b9c6b5948582185632fd,",
+      "value": "#541B1F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/6": {
+      "id": "S:65b21748487df47e8fe97743f8bae32511e528ad,",
+      "value": "#671E22",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/7": {
+      "id": "S:af67a85f67b2833c8dab70b30e1ddddf3eef33af,",
+      "value": "#822025",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/8": {
+      "id": "S:e2a4e377926126d0a125836551d753de1403bd0a,",
+      "value": "#AA2429",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/9": {
+      "id": "S:3009efc3ac71bc32d0f020cbba6e2b8ce2b7c436,",
+      "value": "#E5484D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/10": {
+      "id": "S:5c40091c472f44a59854294d3cc47061083044d8,",
+      "value": "#F2555A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/11": {
+      "id": "S:ee11ca25e33ce9e8c1a7bf37eaecb6d6937c3bbd,",
+      "value": "#FF6369",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/red/dark/12": {
+      "id": "S:aae7c30073f6301f0be9db67924666a97fd893e8,",
+      "value": "#FEECEE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/1": {
+      "id": "S:e12864dcac049d07193c89d770ba2739f856d3cd,",
+      "value": "#FBFCFD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/2": {
+      "id": "S:999b318126135f81ffd24112ce0595a36b5eecda,",
+      "value": "#F8F9FA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/3": {
+      "id": "S:bbec93a1bc9bb8838a4f495d65d9c33f455b60fd,",
+      "value": "#F1F3F5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/4": {
+      "id": "S:29841f7bb92d84d28f5d8d2d5a28e84c7487ee48,",
+      "value": "#ECEEF0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/5": {
+      "id": "S:3e1999b0faf0181a990b02a17fee83f6c8c1045e,",
+      "value": "#E6E8EB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/6": {
+      "id": "S:4b168312ec034429c0d48ecf6b21ae0025a997fe,",
+      "value": "#DFE3E6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/7": {
+      "id": "S:a79895994c4e4c49cf0fcab7c2384e49984077a7,",
+      "value": "#D7DBDF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/8": {
+      "id": "S:c5dfb0e59c9ccf0b81747aa51258872a38b220d4,",
+      "value": "#C1C8CD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/9": {
+      "id": "S:29f509292fba516b19246af53f5e5c152e9019af,",
+      "value": "#889096",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/10": {
+      "id": "S:04e09ffdd49d7005dc888c38f066b3391e4be717,",
+      "value": "#7E868C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/11": {
+      "id": "S:5c4883b483f980c2ef4c14360c010729f1425701,",
+      "value": "#687076",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/light/12": {
+      "id": "S:6f6b81fc13fe4ebe6cc2bcaf3dc358beef2d6ebf,",
+      "value": "#11181C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/1": {
+      "id": "S:464ca5d31c0a8799ce727b76c062818c9d82725a,",
+      "value": "#151718",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/2": {
+      "id": "S:7bee5918ffaaaaa2c73d3224402fb822e6865c68,",
+      "value": "#1A1D1E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/3": {
+      "id": "S:439dd6c67a0daf5b7edb9033e72ec181d879b9ee,",
+      "value": "#202425",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/4": {
+      "id": "S:8a2016170dd2b9fdbd3269fb6d75a8d60974bc12,",
+      "value": "#26292B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/5": {
+      "id": "S:06551e27f6a1601d09e4f8d9024104b420e0182d,",
+      "value": "#2B2F31",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/6": {
+      "id": "S:6344fa3188f3c841b823f3b926be11b1e896ede3,",
+      "value": "#313538",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/7": {
+      "id": "S:50afcbc1ff3fa8619806d025a3e73fd8cda0ff0b,",
+      "value": "#3A3F42",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/8": {
+      "id": "S:201a5f63cbbf0883b92254f33d5835cdad23c31d,",
+      "value": "#4C5155",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/9": {
+      "id": "S:b7f3a99280ddb25d86cab6de5ded5c8345c4cefe,",
+      "value": "#697177",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/10": {
+      "id": "S:a7d0c8c479b0c86b47a07561bf93eb129c172dcd,",
+      "value": "#787F85",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/11": {
+      "id": "S:0018a28a48651fc65e4807c756867dafce4be09e,",
+      "value": "#9BA1A6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/slate/dark/12": {
+      "id": "S:5bae31e5cedc529f34914a2ea25e383ea9d98f79,",
+      "value": "#ECEDEE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/1": {
+      "id": "S:7cfb5b1759b5dd770b5c4db2c7278550ad6ee3e7,",
+      "value": "#FBFDFC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/2": {
+      "id": "S:41beb573efcfebb56b6beee2d1bdb360929ca0ea,",
+      "value": "#F8FAF9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/3": {
+      "id": "S:3d31c239bf50dec1cb80551a06c4ed72ed3ad1f6,",
+      "value": "#F1F4F3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/4": {
+      "id": "S:59467a18ca7af42d32c68e9e24a034af079b64fb,",
+      "value": "#ECEFED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/5": {
+      "id": "S:68d72b22ad027f12de68b1bd1453f3b6ecd5c6c3,",
+      "value": "#E6E9E8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/6": {
+      "id": "S:200717bc02e693fada2155b11256d27ee1e3b630,",
+      "value": "#DFE4E2",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/7": {
+      "id": "S:5dd6c0b3e1bb206f3283f49559a6c95ccaaa2582,",
+      "value": "#D7DCDA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/8": {
+      "id": "S:0938ba0b46a8f0cd0131ce0c56d2830a4c4db96c,",
+      "value": "#C2C9C6",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/9": {
+      "id": "S:6f49d79a7f0ae1d1dcd21debf3780ffd1c67f270,",
+      "value": "#8A918E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/10": {
+      "id": "S:86ffcf56d15b1c37a6afe3321bbe37f760cf6bec,",
+      "value": "#808784",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/11": {
+      "id": "S:81a537546bf023f91c42aeb7cb32ecf94d7eab8f,",
+      "value": "#6A716E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/light/12": {
+      "id": "S:d2252ebb169da5417dbd5bbc0c75863cbf972747,",
+      "value": "#111C18",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/1": {
+      "id": "S:616080d33c177ac6e62835e197a663a890cb0006,",
+      "value": "#141716",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/2": {
+      "id": "S:5946f552c2cc4bb3737b74e59fcba3d9b1275bca,",
+      "value": "#191D1B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/3": {
+      "id": "S:800c2e06a02d5914d4295f4b8f1ae712868c13ca,",
+      "value": "#1F2421",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/4": {
+      "id": "S:25780c3aceb6acb320b8785f51c955feb4b8de35,",
+      "value": "#252A27",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/5": {
+      "id": "S:7483c09f729c4c66de77e824bdfb129707acc85f,",
+      "value": "#2A2F2C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/6": {
+      "id": "S:0ac59055728a1ca653795a5387fa891122c86207,",
+      "value": "#303633",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/7": {
+      "id": "S:33e18b428e3dad270495ec61f1c87b23aefb8b40,",
+      "value": "#393F3C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/8": {
+      "id": "S:2b6d45d6c50a951741725b42bdd6f9a37573e6d8,",
+      "value": "#4A524E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/9": {
+      "id": "S:11d56bae69d4622f7f63cf8f54804638a09a9e23,",
+      "value": "#66736D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/10": {
+      "id": "S:75cb02f3b5f8de771ea74adc70291709e031eb23,",
+      "value": "#75817B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/11": {
+      "id": "S:03693cbba61c954219c3c92eea91347cd7624839,",
+      "value": "#99A29E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/sage/dark/12": {
+      "id": "S:8bc949835ef5db40a7e0a7e1a494498826516ff3,",
+      "value": "#ECEEED",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/1": {
+      "id": "S:10174b5638ed0a4e81f8956f396b7f743ddb92f3,",
+      "value": "#FDFDF9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/2": {
+      "id": "S:7a4114561c5469735216a681d36cd73b92bcbde7,",
+      "value": "#FFFCE8",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/3": {
+      "id": "S:a8633e1c6d799bb79e7d8e5529213e5244747a80,",
+      "value": "#FFFBD1",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/4": {
+      "id": "S:1dc7ee942301deaedae268dbf345acce0558e977,",
+      "value": "#FFF8BB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/5": {
+      "id": "S:ba2e0af430a822b863adda07e5217b9aeecf2ebd,",
+      "value": "#FEF2A4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/6": {
+      "id": "S:0b92aff021eb0571ae4a44ad26f689502e3fb24d,",
+      "value": "#F9E68C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/7": {
+      "id": "S:a7d56fe742b952968a98f016d01f12aab3eff37d,",
+      "value": "#EFD36C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/8": {
+      "id": "S:9e3a8d843671f48ca409db565338bfd10e47715b,",
+      "value": "#EBBC00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/9": {
+      "id": "S:de60334bab0144c099c2098a9b1924bb8ae6ba75,",
+      "value": "#F5D90A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/10": {
+      "id": "S:0a1da3d557de41e5c1da3649b44c0db08efb0f43,",
+      "value": "#F7CE00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/11": {
+      "id": "S:55d345ea5ae9f5b79ff0eb2c1a1d21a89a57e92d,",
+      "value": "#946800",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/light/12": {
+      "id": "S:0eb5fa45b621893af6f9903d78b78422d225fbbb,",
+      "value": "#35290F",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/1": {
+      "id": "S:1e573999357fb11c6b6d7a5905709d649f60d80e,",
+      "value": "#1C1500",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/2": {
+      "id": "S:e1f23ea852dbda4d4bc7a33e38048a548465608d,",
+      "value": "#221A00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/3": {
+      "id": "S:818afe37103321311fe0112e79cd5006dca6ea43,",
+      "value": "#2C2100",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/4": {
+      "id": "S:4d145791d31b4b2fe21b67b1d7f71d0d5f9a27b0,",
+      "value": "#352800",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/5": {
+      "id": "S:d07d4d0b29e688513d60845c63efe2d0d9e213e4,",
+      "value": "#3E3000",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/6": {
+      "id": "S:82e554863cc3773dd4de40c0e0e5ac809cfd335d,",
+      "value": "#493C00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/7": {
+      "id": "S:68a7d9a827474735af21e4376838f11a871e0024,",
+      "value": "#594A05",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/8": {
+      "id": "S:6aa0779e752773d6c8c97266e2f19ad730b4054a,",
+      "value": "#705E00",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/9": {
+      "id": "S:613e4cf2f19a67de571934c46f7fafa34d30ce46,",
+      "value": "#F5D90A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/10": {
+      "id": "S:bec926f30e0670e8a8d433ab68c773711b59b143,",
+      "value": "#FFEF5C",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/11": {
+      "id": "S:e1aa294a92d16147c9e1f71fa90dbb02a07fc00b,",
+      "value": "#F0C000",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "accessible/yellow/dark/12": {
+      "id": "S:4e6966c5bf8d5bd56756c1d440d5089823bc0cfa,",
+      "value": "#FFFAD1",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/dawn": {
+      "id": "S:5738baaecd51f13f13dbd48ef47f5e586f9f9147,",
+      "value": "#FF7575",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/white": {
+      "id": "S:065d75c79fc89ac491902cd3a0b37ae23d6bef4e,",
+      "value": "#FFFFFF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/cream": {
+      "id": "S:4c95ee6b8cc1af7dbe430b6273be0868e750ca22,",
+      "value": "#F4F2EF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/mauve": {
+      "id": "S:0019c7642371992df8853d9784569c52d9bcdd75,",
+      "value": "#C7B0B0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/spruce": {
+      "id": "S:ff11a85ded8ef427052dac58f0d3fb63a53c8240,",
+      "value": "#0F3647",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/sites": {
+      "id": "S:1596a2cf5df09509e824dcfbf1c05a79b5f5dd01,",
+      "value": "#599954",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/sponsors": {
+      "id": "S:930041021c46f038dc85185fb5ec44ff1fc90030,",
+      "value": "#40ABB0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/alpenglow": {
+      "id": "S:8229f9db86a1c9ed2e46f8367cf44a4a093106f8,",
+      "value": "#6E6EBD",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/sunshine": {
+      "id": "S:cbe120be8bc63627a8299a2b73eb2e12ca8aba7a,",
+      "value": "#E09133",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/light-gray": {
+      "id": "S:857efb908c45882b7500b970b5d33d3aee74cf27,",
+      "value": "#A4A9BA",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/medium-gray": {
+      "id": "S:a7e1d6b6986cd41a4ee99161061e906e539fb8c9,",
+      "value": "#696F83",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/dark-gray": {
+      "id": "S:424aacda9d5488797e33257b41694c0286c94172,",
+      "value": "#4C4F58",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "brand/sunset": {
+      "id": "S:182e1664c76579e2eec782c596080cf64894f871,",
+      "value": "#C24585",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/archived": {
+      "id": "S:4e8702f74362660d7a6fa2549576204869249942,",
+      "value": "#D9D9D9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/screening": {
+      "id": "S:aea6e607870ff6bf4ed43a0257a8c1660f6df14e,",
+      "value": "#8CA7F3",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/completed": {
+      "id": "S:c0d310db7534df8dabba8a8896d28ede150c7474,",
+      "value": "#A985E1",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/discontinued": {
+      "id": "S:edb10a7dffdd1ea3a1fe617c72e2ea9ff4d41e68,",
+      "value": "#E95D5B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/screen failure": {
+      "id": "S:125205b2c8734c6d104dc0ea2179f54902f8ebcb,",
+      "value": "#ED807D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/pre-screen failure": {
+      "id": "S:e152220406a38ecdfeecc75882f5737318f1971f,",
+      "value": "#F3CFCB",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/actively enrolled": {
+      "id": "S:e63dea153a8c45c71b3f065749a4d56630ec065f,",
+      "value": "#395CDF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/pre-screening first visit scheduled": {
+      "id": "S:1573b162ca56abe897904098202f1abb1db5dccd,",
+      "value": "#B3C7F9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/potential candidate": {
+      "id": "S:b8c8210ca2c35af82c276b5f07b527f51c966fae,",
+      "value": "#DAE4FE",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/patient status inactive": {
+      "id": "S:d3513ab7dc51ba91864a943311cf712bbe0b9b65,",
+      "value": "#FFA39E",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "patient-statuses/patient status active": {
+      "id": "S:d7c371495dae14349635aa772fdd024e71c3fa6f,",
+      "value": "#69C0FF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/american-indian": {
+      "id": "S:9e8ac6268496f7d4cba919b9388bc1ee0fb6e8b0,",
+      "value": "#37279B",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/asian": {
+      "id": "S:a44df3431489be8438c35c748e3f9585a3336724,",
+      "value": "#529A73",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/black": {
+      "id": "S:8071025fb228804fbbeeebf3d778df81cc830ef4,",
+      "value": "#0D7DA0",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/multiracial": {
+      "id": "S:fd8b84efc0af5f6bd23775f331d55ccc377f1292,",
+      "value": "#E9A386",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/native-hawaiian": {
+      "id": "S:dc4cdcba5a84e039e01930c9fd192cd84e983530,",
+      "value": "#C668BC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/white": {
+      "id": "S:c3cb55036fcb134c3ce79e60e92e9ed3030d7a6f,",
+      "value": "#A84254",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/unspecified": {
+      "id": "S:217cec04cd78a092c64297ec709bdd6c24af105d,",
+      "value": "#4B4F5D",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/other": {
+      "id": "S:10d489ad3a141236774b2b52257a0e679a30726e,",
+      "value": "#434343",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-non-latino/prefer-not-to-answer": {
+      "id": "S:e04560c71d3167b703114aecfe5e139ad2dfbb21,",
+      "value": "#BFBFBF",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/american-indian": {
+      "id": "S:9ee2e9d9d0b5029e3f56d8f0bd292e7f7a3999be,",
+      "value": "#8A82B7",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/asian": {
+      "id": "S:cb4c59e28ab0ec99507d7ac0d78dfb6b66c81864,",
+      "value": "#95D1B1",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/black": {
+      "id": "S:d7a524084fa9838d74d7e74852ee3ee9926a8932,",
+      "value": "#74B7CC",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/multiracial": {
+      "id": "S:7a88be530efeff67017ade07a7c535c6806a4f56,",
+      "value": "#EED4B5",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/native-hawaiian": {
+      "id": "S:25be91aa7945c86e2961163034ac75f9cb163856,",
+      "value": "#FFC5F9",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/white": {
+      "id": "S:824ee33a39cc1b83387b826331fcffd04dbb8f67,",
+      "value": "#B97F8A",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "reports/diversity/race-latino/unspecified": {
+      "id": "S:8c451efd4ad3fd6e4ba15c7d34f33f63496e9f48,",
+      "value": "#8E93A4",
+      "type": "colors",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "body": {
+      "id": "S:5e57786f2425a760d77a3f966e1d286134c67b95,",
+      "value": {
+        "fontName": {
+          "family": "Roboto",
+          "style": "Regular"
+        },
+        "fontSize": 16,
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "type": "typography",
+      "description": {
+        "knownAliases": "regular-label, button-label, demo-label"
+      }
+    },
+    "grid-10": {
+      "id": "S:82106c17e5bb42bf7cacd4128ed06f9a7bb08dd1,",
+      "value": [
+        {
+          "pattern": "GRID",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "sectionSize": 10
+        }
+      ],
+      "type": "grid",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "col5": {
+      "id": "S:6c581f873f446cefb588b2bb9cf6bc559a45cbb3,",
+      "value": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 5,
+          "offset": 0
+        }
+      ],
+      "type": "grid",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "rows1": {
+      "id": "S:e005c76c1755d9b07015f3e7a3f333988201111a,",
+      "value": [
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 20,
+          "alignment": "STRETCH",
+          "count": 5,
+          "offset": 0
+        }
+      ],
+      "type": "grid",
+      "description": {
+        "knownAliases": ""
+      }
+    },
+    "shadow/elevated": {
+      "id": "S:ae6b61c87003a7f3ce065285a24fd75876a8e949,",
+      "value": [
+        {
+          "type": "DROP_SHADOW",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "offset": {
+            "x": 0,
+            "y": 24
+          },
+          "radius": 34,
+          "spread": 0,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "type": "effects",
+      "description": {
+        "knownAliases": ""
+      }
+    }
+  },
+  "alias": {
+    "xx": {
+      "value": "{base.accessible/amber/light/1}",
+      "type": "colors-alias"
+    },
+    "cc": {
+      "value": "{base.accessible/amber/light/1}",
+      "type": "colors-alias"
+    },
+    "dd": {
+      "value": "{base.accessible/amber/light/1}",
+      "type": "colors-alias"
+    },
+    "regular-label": {
+      "value": "{base.body}",
+      "type": "typography-alias"
+    },
+    "button-label": {
+      "value": "{base.body}",
+      "type": "typography-alias"
+    },
+    "demo-label": {
+      "value": "{base.body}",
+      "type": "typography-alias"
+    }
+  }
+}

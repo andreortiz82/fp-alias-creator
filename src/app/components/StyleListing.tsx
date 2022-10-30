@@ -1,43 +1,42 @@
 import * as React from 'react';
-import {rgbToHex} from '../utils';
+import {MiniSwatch} from './Swatch';
+import * as _ from 'lodash';
 
 const {useState} = React;
 
-const StyleListing = ({title, collection, setSelectedStyle}) => {
+const StyleListing = ({collection, setSelectedStyle, type}) => {
     const [query, setQuery] = useState('');
-    let filtered = collection.filter((color) => {
-        if (!color) return true;
-        if (color.name.toLowerCase().includes(query.toLowerCase())) {
+    let filtered = collection.filter((item) => {
+        if (!item) return true;
+        if (item.name.toLowerCase().includes(query.toLowerCase())) {
             return true;
         }
     });
 
     return (
-        <div className="style-collection">
-            <h5>{title}</h5>
+        <div className={`${type}-collection style-collection`}>
+            <h1>{_.startCase(type)}</h1>
             <div className="search">
                 <input
+                    placeholder="Search styles"
                     onChange={(e) => {
                         setQuery(e.target.value);
                     }}
                 ></input>
             </div>
             <div className="style-collection__list">
-                {filtered.map((figmaStyle) => {
+                {filtered.map((style) => {
                     return (
                         <div
                             className="style-collection__item"
-                            key={figmaStyle.id}
+                            key={style.id}
                             onClick={() => {
-                                setSelectedStyle(figmaStyle);
-                                parent.postMessage({pluginMessage: {type: 'get-style', message: figmaStyle}}, '*');
+                                setSelectedStyle(style);
+                                parent.postMessage({pluginMessage: {type: 'get-style', message: style}}, '*');
                             }}
                         >
-                            <span
-                                className="list-swatch"
-                                style={{background: rgbToHex(figmaStyle.paints[0].color)}}
-                            ></span>
-                            <span>{figmaStyle.name}</span>
+                            <MiniSwatch type={type} style={style} />
+                            <span>{style.name}</span>
                         </div>
                     );
                 })}

@@ -33,6 +33,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
   integrity sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==
 
+"@types/lodash@^4.14.186":
+  version "4.14.186"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.186.tgz#862e5514dd7bd66ada6c70ee5fce844b06c8ee97"
+  integrity sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -2284,7 +2289,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@^4.17.3:
+lodash@^4.17.21, lodash@^4.17.3:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==

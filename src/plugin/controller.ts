@@ -1,11 +1,14 @@
-figma.showUI(__html__, {width: 400, height: 500});
+figma.showUI(__html__, {width: 450, height: 500});
 
 const HelloFigma = () => {
     const paintCollection = [];
+    const typographyCollection = [];
+    const gridCollection = [];
+    const effectsCollection = [];
 
     figma.getLocalPaintStyles().forEach((style) => {
         paintCollection.push({
-            type: 'color',
+            type: 'colors',
             name: style.name,
             id: style.id,
             description: style.description,
@@ -13,10 +16,54 @@ const HelloFigma = () => {
         });
     });
 
+    figma.getLocalTextStyles().forEach((style) => {
+        typographyCollection.push({
+            type: 'typography',
+            name: style.name,
+            id: style.id,
+            description: style.description,
+            value: {
+                fontName: style.fontName,
+                fontSize: style.fontSize,
+                letterSpacing: style.letterSpacing,
+                lineHeight: style.lineHeight,
+                paragraphIndent: style.paragraphIndent,
+                paragraphSpacing: style.paragraphSpacing,
+                textCase: style.textCase,
+                textDecoration: style.textDecoration,
+            },
+        });
+    });
+
+    figma.getLocalGridStyles().forEach((style) => {
+        console.log(style);
+        gridCollection.push({
+            type: 'grid',
+            name: style.name,
+            id: style.id,
+            description: style.description,
+            layoutGrids: style.layoutGrids,
+        });
+    });
+
+    figma.getLocalEffectStyles().forEach((style) => {
+        console.log(style);
+        effectsCollection.push({
+            type: 'effects',
+            name: style.name,
+            id: style.id,
+            description: style.description,
+            effects: style.effects,
+        });
+    });
+
     figma.ui.postMessage({
         type: 'get-styles',
         message: {
             colors: paintCollection,
+            typography: typographyCollection,
+            grid: gridCollection,
+            effects: effectsCollection,
         },
     });
 };

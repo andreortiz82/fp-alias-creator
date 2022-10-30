@@ -1,19 +1,14 @@
 import * as React from 'react';
-import {rgbToHex} from '../utils';
+import {BackButton} from './Navigation';
+import {DetailsSwatch} from './Swatch';
 
-const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
+const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}) => {
     return (
         <div>
-            <button
-                className="secondary"
-                onClick={() => {
-                    setSelectedStyle(null);
-                }}
-            >
-                Back
-            </button>
+            <BackButton setSelectedStyle={setSelectedStyle} />
             <h3>{style.name}</h3>
-            <div className="style-block color-block" style={{background: rgbToHex(style.paints[0].color)}}></div>
+
+            <DetailsSwatch type={type} style={style} />
 
             <div>
                 <textarea defaultValue={style.description} onChange={(e) => setStyleAlias(e.target.value)} />
