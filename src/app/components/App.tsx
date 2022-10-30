@@ -3,10 +3,12 @@ import React, {useState, useEffect} from 'react';
 import StyleDetails from './StyleDetails';
 import StyleListing from './StyleListing';
 import StyleJson from './StyleJson';
+import Navigation from './Navigation';
 
 declare function require(path: string): any;
 
 const App = ({}) => {
+    const [currentTab, setCurrentTab] = useState('colors');
     const [colorStyles, setColorStyles] = useState([]);
     const [selectedStyle, setSelectedStyle] = useState(null);
     const [styleAlias, setStyleAlias] = React.useState('');
@@ -25,29 +27,45 @@ const App = ({}) => {
         };
     }, []);
 
-    const currentView = (style) => {
-        if (style === null) {
-            return (
-                <div>
-                    <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />
-                    <StyleJson value={colorStyles} />
-                </div>
-            );
-        } else {
-            return (
-                <div>
-                    <StyleDetails
-                        styleAlias={styleAlias}
-                        setSelectedStyle={setSelectedStyle}
-                        style={style}
-                        setStyleAlias={setStyleAlias}
-                    />
-                </div>
-            );
+    const currentView = (view) => {
+        switch (view) {
+            case 'colors':
+                return <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />;
+                break;
+            case 'typography':
+                return <div>{view}</div>;
+                break;
+            case 'sizes':
+                return <div>{view}</div>;
+                break;
+            case 'effects':
+                return <div>{view}</div>;
+                break;
+            default:
+                return <StyleJson value={colorStyles} />;
+                break;
         }
     };
 
-    return <div>{currentView(selectedStyle)}</div>;
+    return (
+        <div>
+            <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} />
+            <div>{currentView(currentTab)}</div>
+        </div>
+    );
 };
 
 export default App;
+
+/*
+
+<div>
+    <StyleDetails
+        styleAlias={styleAlias}
+        setSelectedStyle={setSelectedStyle}
+        style={style}
+        setStyleAlias={setStyleAlias}
+    />
+</div>
+
+*/
