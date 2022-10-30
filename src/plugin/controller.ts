@@ -1,6 +1,17 @@
 figma.showUI(__html__, {width: 450, height: 500});
 
+async function loadFonts() {
+    await figma.loadFontAsync({family: 'Menlo', style: 'Regular'});
+    await figma.loadFontAsync({family: 'Menlo', style: 'Medium'});
+    await figma.loadFontAsync({family: 'Menlo', style: 'Bold'});
+    await figma.loadFontAsync({family: 'Roboto', style: 'Regular'});
+    await figma.loadFontAsync({family: 'Roboto', style: 'Medium'});
+    await figma.loadFontAsync({family: 'Roboto', style: 'Bold'});
+}
+
 const HelloFigma = () => {
+    loadFonts();
+
     const paintCollection = [];
     const typographyCollection = [];
     const gridCollection = [];

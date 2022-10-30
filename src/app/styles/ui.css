@@ -1,181 +1,184 @@
 button {
-  padding: 8px 16px;
-  border-radius: 4px;
-  display: inline-block;
-  color: white;
-  background-color: dodgerblue;
-  border: 2px solid dodgerblue;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 button:hover {
-  background-color: #51a9ff;
+    background-color: #51a9ff;
 }
 button.secondary {
-  background-color: white;
-  border: 2px solid #ccc;
-  color: black;
+    background-color: white;
+    border: 2px solid #ccc;
+    color: black;
 }
 button.secondary:hover {
-  border-color: black;
-  background-color: white;
+    border-color: black;
+    background-color: white;
 }
 button.primary {
-  background-color: white;
-  border: 2px solid #ccc;
-  color: black;
+    background-color: white;
+    border: 2px solid #ccc;
+    color: black;
 }
 button.primary:hover {
-  border-color: black;
-  background-color: white;
+    border-color: black;
+    background-color: white;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .navigation button {
-  background: white;
-  border: none;
-  color: #ccc;
-  border-radius: 4px;
+    background: white;
+    border: none;
+    color: #ccc;
+    border-radius: 4px;
 }
 .navigation button.active {
-  color: black;
-  background: whitesmoke;
+    color: black;
+    background: whitesmoke;
 }
 
 .search {
-  display: flex;
-  margin-bottom: 16px;
+    display: flex;
+    margin-bottom: 16px;
 }
 .search input {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 .style-collection__list {
-  height: calc(100vh - 220px);
-  overflow-y: auto;
+    height: calc(100vh - 220px);
+    overflow-y: auto;
 }
 .style-collection__item {
-  padding: 8px;
-  margin-bottom: 2px;
-  border-bottom: 1px solid #f5f5f5;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.3s;
-  background: white;
+    padding: 8px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: white;
 }
 .style-collection__item:hover {
-  background: #f5f5f5;
+    background: #f5f5f5;
 }
 .style-collection__item-block .identifier {
-  display: flex;
-  align-items: flex-start;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 .style-collection__item-block .identifier .list-swatch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
-  width: 24px;
-  border-radius: 4px;
-  margin-right: 16px;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    margin-right: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
 }
 .style-collection__item-block .known-alias {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
-  margin-top: 8px;
-  font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: normal;
 }
 
 .style-swatch {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  padding: 16px;
-  height: 100px;
-  margin-bottom: 16px;
-  border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 16px;
+    height: 120px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    overflow: hidden;
+    text-align: center;
 }
 
 .alias-form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .alias-form__field {
-  flex: 1 1 auto;
-  height: calc(100vh - 340px);
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
+    flex: 1 1 auto;
+    height: calc(100vh - 340px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
 }
 .alias-form__field textarea {
-  margin-bottom: 0;
-  flex: 1 1 auto;
-  height: calc(100vh - 340px);
+    margin-bottom: 0;
+    flex: 1 1 auto;
+    height: calc(100vh - 340px);
 }
 .alias-form__field p {
-  margin: 0;
-  padding: 8px;
-  background: whitesmoke;
-  font-size: 14px;
+    margin: 0;
+    padding: 8px;
+    background: whitesmoke;
+    font-size: 14px;
 }
 
 .json-output {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 .json-output__actions {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
 }
 .json-output__actions button {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 .json-output textarea {
-  flex: 1 1 auto;
-  height: calc(100vh - 250px);
-  background: darkblue;
-  color: aqua;
-  border-color: darkblue;
-  font-size: 14px;
+    flex: 1 1 auto;
+    height: calc(100vh - 250px);
+    background: darkblue;
+    color: aqua;
+    border-color: darkblue;
+    font-size: 14px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  padding: 24px;
-  margin: 0;
-  background: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
+    padding: 24px;
+    margin: 0;
+    background: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 input,
 textarea {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  padding: 8px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 8px;
 }
 
 /*# sourceMappingURL=ui.css.map */

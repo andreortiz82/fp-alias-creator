@@ -10,7 +10,9 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}
     return (
         <div>
             <BackButton setSelectedStyle={setSelectedStyle} />
-            <h2>{style.name}</h2>
+            <code>
+                <h2>{style.name}</h2>
+            </code>
 
             <DetailsSwatch type={type} style={style} />
 

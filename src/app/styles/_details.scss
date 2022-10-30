@@ -4,9 +4,11 @@
     align-items: center;
     border-radius: 4px;
     padding: 16px;
-    height: 100px;
+    height: 120px;
     margin-bottom: 16px;
     border: 2px solid black;
+    overflow: hidden;
+    text-align: center;
 }
 
 .alias-form {

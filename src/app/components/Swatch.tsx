@@ -43,6 +43,12 @@ const MiniSwatch = ({type, style}) => {
 };
 
 const DetailsSwatch = ({type, style}) => {
+    const parseWeight = (weight) => {
+        if (style.value.fontName.style === 'Regular') return 400;
+        if (style.value.fontName.style === 'Medium') return 500;
+        if (style.value.fontName.style === 'Bold') return 700;
+    };
+
     const config = (type, style) => {
         console.log(style);
 
@@ -60,13 +66,13 @@ const DetailsSwatch = ({type, style}) => {
                     <span
                         className={`${type}-block style-swatch`}
                         style={{
-                            fontFamily: `${style.value.fontName.family}`,
+                            fontFamily: `${style.value.fontName.family} !important`,
                             fontSize: style.value.fontSize,
-                            fontWeight: style.value.fontName.style,
+                            fontWeight: `${parseWeight(style.value.fontName.style)}`,
                             lineHeight: `${style.value.lineHeight.value}px`,
                         }}
                     >
-                        The quick brown fox jumped over the lazy dog
+                        How quickly daft jumping zebras vex!
                     </span>
                 );
                 break;
