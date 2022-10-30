@@ -1,6 +1,6 @@
 {
   "name": "Picasso: Alias Maker",
-  "id": "@reifyhealth/design/alias-plugin",
+  "id": "1168625179248609374",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",

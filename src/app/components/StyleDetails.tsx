@@ -21,7 +21,7 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}
                         defaultValue={style.description}
                         onChange={(e) => setStyleAlias(e.target.value)}
                     />
-                    <p>Use a comma seperated list to define aliases for this style.</p>
+                    <p>Use a comma separated list to define aliases for this style.</p>
                 </div>
                 <button
                     onClick={() => {
