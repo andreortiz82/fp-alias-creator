@@ -2,6 +2,7 @@
 import React, {useState, useEffect} from 'react';
 import StyleDetails from './StyleDetails';
 import StyleListing from './StyleListing';
+import StyleJson from './StyleJson';
 
 declare function require(path: string): any;
 
@@ -29,6 +30,7 @@ const App = ({}) => {
             return (
                 <div>
                     <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />
+                    <StyleJson value={colorStyles} />
                 </div>
             );
         } else {

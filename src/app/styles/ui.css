@@ -84,4 +84,13 @@ textarea {
     margin-bottom: 16px;
 }
 
+.json-output {
+    display: flex;
+    align-items: stretch;
+    height: 90vh;
+}
+.json-output textarea {
+    flex: 1 1 auto;
+}
+
 /*# sourceMappingURL=ui.css.map */
