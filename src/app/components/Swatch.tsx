@@ -19,10 +19,10 @@ const MiniSwatch = ({type, style}) => {
                     </span>
                 );
                 break;
-            case 'sizes':
+            case 'grid':
                 return (
                     <span className={`${type}-swatch list-swatch`} style={{background: 'white'}}>
-                        S
+                        G
                     </span>
                 );
                 break;
@@ -44,6 +44,8 @@ const MiniSwatch = ({type, style}) => {
 
 const DetailsSwatch = ({type, style}) => {
     const config = (type, style) => {
+        console.log(style);
+
         switch (type) {
             case 'colors':
                 return (
@@ -55,22 +57,30 @@ const DetailsSwatch = ({type, style}) => {
                 break;
             case 'typography':
                 return (
-                    <span className={`${type}-block style-swatch`} style={{background: 'white'}}>
-                        T
+                    <span
+                        className={`${type}-block style-swatch`}
+                        style={{
+                            fontFamily: `${style.value.fontName.family}`,
+                            fontSize: style.value.fontSize,
+                            fontWeight: style.value.fontName.style,
+                            lineHeight: `${style.value.lineHeight.value}px`,
+                        }}
+                    >
+                        The quick brown fox jumped over the lazy dog
                     </span>
                 );
                 break;
-            case 'sizes':
+            case 'grid':
                 return (
                     <span className={`${type}-block style-swatch`} style={{background: 'white'}}>
-                        S
+                        Grid
                     </span>
                 );
                 break;
             case 'effects':
                 return (
                     <span className={`${type}-block style-swatch`} style={{background: 'white'}}>
-                        E
+                        Effect
                     </span>
                 );
                 break;

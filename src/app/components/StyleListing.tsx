@@ -35,8 +35,19 @@ const StyleListing = ({collection, setSelectedStyle, type}) => {
                                 parent.postMessage({pluginMessage: {type: 'get-style', message: style}}, '*');
                             }}
                         >
-                            <MiniSwatch type={type} style={style} />
-                            <span>{style.name}</span>
+                            <span className="style-collection__item-block">
+                                <div className="identifier">
+                                    <span>
+                                        <MiniSwatch type={type} style={style} />
+                                    </span>
+                                    <span>
+                                        <div>{style.name}</div>
+                                        {style.description ? (
+                                            <div className="known-alias">{style.description}</div>
+                                        ) : null}
+                                    </span>
+                                </div>
+                            </span>
                         </div>
                     );
                 })}

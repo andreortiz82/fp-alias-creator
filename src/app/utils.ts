@@ -30,3 +30,19 @@ export const saveFile = (content) => {
     a.download = fileName;
     a.click();
 };
+
+export const copyToClipboard = (value) => {
+    // https://stackoverflow.com/questions/71873824/copy-text-to-clipboard-cannot-read-properties-of-undefined-reading-writetext
+    const textArea = document.createElement('textarea');
+    textArea.value = value;
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+        document.execCommand('copy');
+        alert('Copied!');
+    } catch (err) {
+        alert('Oh no! There was an issue.');
+    }
+    document.body.removeChild(textArea);
+};

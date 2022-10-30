@@ -1,0 +1,25 @@
+.json-output {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    &__actions {
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+
+        button {
+            flex: 1 1 auto;
+        }
+    }
+
+    textarea {
+        flex: 1 1 auto;
+        height: calc(100vh - 250px);
+        background: darkblue;
+        color: aqua;
+        border-color: darkblue;
+        font-size: 14px;
+    }
+}

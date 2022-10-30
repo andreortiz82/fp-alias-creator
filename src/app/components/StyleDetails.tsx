@@ -3,29 +3,44 @@ import {BackButton} from './Navigation';
 import {DetailsSwatch} from './Swatch';
 
 const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}) => {
+    React.useEffect(() => {
+        setStyleAlias(style.description);
+    }, []);
+
     return (
         <div>
             <BackButton setSelectedStyle={setSelectedStyle} />
-            <h3>{style.name}</h3>
+            <h2>{style.name}</h2>
 
             <DetailsSwatch type={type} style={style} />
 
-            <div>
-                <textarea defaultValue={style.description} onChange={(e) => setStyleAlias(e.target.value)} />
+            <div className="alias-form">
+                <div className="alias-form__field">
+                    <textarea
+                        placeholder="Example: apple, banana, peanutbutter"
+                        defaultValue={style.description}
+                        onChange={(e) => setStyleAlias(e.target.value)}
+                    />
+                    <p>Use a comma seperated list to define aliases for this style.</p>
+                </div>
                 <button
                     onClick={() => {
-                        parent.postMessage(
-                            {
-                                pluginMessage: {
-                                    styleAlias: styleAlias,
-                                    selectedStyle: style,
-                                    type: 'create-alias',
+                        if (styleAlias === '') {
+                            alert('Enter an alias before saving');
+                        } else {
+                            parent.postMessage(
+                                {
+                                    pluginMessage: {
+                                        styleAlias: styleAlias,
+                                        selectedStyle: style,
+                                        type: 'create-alias',
+                                    },
                                 },
-                            },
-                            '*'
-                        );
-                        setSelectedStyle(null);
-                        setStyleAlias('');
+                                '*'
+                            );
+                            setSelectedStyle(null);
+                            setStyleAlias('');
+                        }
                     }}
                 >
                     Save

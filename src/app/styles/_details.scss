@@ -1,0 +1,36 @@
+.style-swatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 16px;
+    height: 100px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+}
+
+.alias-form {
+    display: flex;
+    flex-direction: column;
+
+    &__field {
+        flex: 1 1 auto;
+        height: calc(100vh - 340px);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+
+        textarea {
+            margin-bottom: 0;
+            flex: 1 1 auto;
+            height: calc(100vh - 340px);
+        }
+
+        p {
+            margin: 0;
+            padding: 8px;
+            background: whitesmoke;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    color: $button-text;
+    background-color: $button-bg;
+    border: 2px solid $button-bg;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: lighten($button-bg, 10);
+    }
+
+    &.secondary {
+        background-color: $button-secondary-bg;
+        border: 2px solid $button-secondary-bdr;
+        color: $button-secondary-text;
+
+        &:hover {
+            border-color: $button-secondary-text;
+            background-color: $button-secondary-bg;
+        }
+    }
+
+    &.primary {
+        background-color: $button-secondary-bg;
+        border: 2px solid $button-secondary-bdr;
+        color: $button-secondary-text;
+
+        &:hover {
+            border-color: $button-secondary-text;
+            background-color: $button-secondary-bg;
+        }
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        background: white;
+        border: none;
+        color: #ccc;
+        border-radius: 4px;
+
+        &.active {
+            color: black;
+            background: whitesmoke;
+        }
+    }
+}

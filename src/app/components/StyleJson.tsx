@@ -1,10 +1,10 @@
 import * as React from 'react';
-import {rgbToHex, saveFile} from '../utils';
+import {rgbToHex, saveFile, copyToClipboard} from '../utils';
 import * as _ from 'lodash';
 
 const StyleJson = ({value}) => {
     const cleanString = (s) => {
-        return s.trim().replace(' ', '-').toLowerCase();
+        return _.kebabCase(s);
     };
 
     const configValue = (token) => {
@@ -29,7 +29,6 @@ const StyleJson = ({value}) => {
 
     const createOutput = (styles) => {
         const output = {base: {}, alias: {}};
-        // console.log(styles)
         styles.map((token) => {
             const originalStyle = {
                 id: token.id,
@@ -62,10 +61,21 @@ const StyleJson = ({value}) => {
         <div className="style-output">
             <h1>JSON</h1>
             <p>Save this JSON and proccess it with Style Dictionary.</p>
-            <button className="secondary" onClick={() => saveFile(JSON.stringify(createOutput(value), null, 2))}>
-                Save
-            </button>
+
             <div className="json-output">
+                <div className="json-output__actions">
+                    <button className="save" onClick={() => saveFile(JSON.stringify(createOutput(value), null, 2))}>
+                        Save File
+                    </button>
+
+                    <button
+                        className="copy secondary"
+                        onClick={() => copyToClipboard(JSON.stringify(createOutput(value), null, 2))}
+                    >
+                        Copy to Clipboard
+                    </button>
+                </div>
+
                 <textarea readOnly value={JSON.stringify(createOutput(value), null, 2)} />
             </div>
         </div>

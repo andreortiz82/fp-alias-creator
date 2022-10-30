@@ -17,6 +17,8 @@ const HelloFigma = () => {
     });
 
     figma.getLocalTextStyles().forEach((style) => {
+        console.log(style);
+
         typographyCollection.push({
             type: 'typography',
             name: style.name,
@@ -36,7 +38,6 @@ const HelloFigma = () => {
     });
 
     figma.getLocalGridStyles().forEach((style) => {
-        console.log(style);
         gridCollection.push({
             type: 'grid',
             name: style.name,
@@ -47,7 +48,6 @@ const HelloFigma = () => {
     });
 
     figma.getLocalEffectStyles().forEach((style) => {
-        console.log(style);
         effectsCollection.push({
             type: 'effects',
             name: style.name,
