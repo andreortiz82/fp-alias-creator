@@ -1,4 +1,4 @@
-figma.showUI(__html__, {width: 700, height: 550});
+figma.showUI(__html__, {width: 400, height: 500});
 
 const HelloFigma = () => {
     const paintCollection = [];

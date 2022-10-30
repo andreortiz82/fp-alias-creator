@@ -41,7 +41,9 @@ const StyleJson = ({value}) => {
         <div className="style-output">
             <h5>JSON</h5>
             <p>Save this JSON and run it through Style Dictionary.</p>
-            <button onClick={() => saveFile(JSON.stringify(createOutput(value), null, 2))}>Save</button>
+            <button className="secondary" onClick={() => saveFile(JSON.stringify(createOutput(value), null, 2))}>
+                Save
+            </button>
             <div className="json-output">
                 <textarea readOnly value={JSON.stringify(createOutput(value), null, 2)} />
             </div>

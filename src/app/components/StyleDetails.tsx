@@ -2,8 +2,6 @@ import * as React from 'react';
 import {rgbToHex} from '../utils';
 
 const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
-    console.log(style.paints[0].color);
-
     return (
         <div>
             <button
@@ -15,7 +13,7 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
                 Back
             </button>
             <h3>{style.name}</h3>
-            <div className="color-block" style={{background: rgbToHex(style.paints[0].color)}}></div>
+            <div className="style-block color-block" style={{background: rgbToHex(style.paints[0].color)}}></div>
 
             <div>
                 <textarea defaultValue={style.description} onChange={(e) => setStyleAlias(e.target.value)} />

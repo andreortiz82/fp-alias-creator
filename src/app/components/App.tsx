@@ -27,10 +27,31 @@ const App = ({}) => {
         };
     }, []);
 
+    const renderStyleView = () => {
+        if (selectedStyle === null) {
+            return (
+                <div>
+                    <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />
+                </div>
+            );
+        } else {
+            return (
+                <div>
+                    <StyleDetails
+                        styleAlias={styleAlias}
+                        setSelectedStyle={setSelectedStyle}
+                        style={selectedStyle}
+                        setStyleAlias={setStyleAlias}
+                    />
+                </div>
+            );
+        }
+    };
+
     const currentView = (view) => {
         switch (view) {
             case 'colors':
-                return <StyleListing setSelectedStyle={setSelectedStyle} title="Colors" collection={colorStyles} />;
+                return renderStyleView();
                 break;
             case 'typography':
                 return <div>{view}</div>;
@@ -49,7 +70,7 @@ const App = ({}) => {
 
     return (
         <div>
-            <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} />
+            {selectedStyle === null ? <Navigation currentTab={currentTab} setCurrentTab={setCurrentTab} /> : null}
             <div>{currentView(currentTab)}</div>
         </div>
     );
@@ -59,13 +80,6 @@ export default App;
 
 /*
 
-<div>
-    <StyleDetails
-        styleAlias={styleAlias}
-        setSelectedStyle={setSelectedStyle}
-        style={style}
-        setStyleAlias={setStyleAlias}
-    />
-</div>
+
 
 */
