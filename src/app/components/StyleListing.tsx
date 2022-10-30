@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {rgbToHex} from '../utils';
 
 const {useState} = React;
 
@@ -25,14 +26,18 @@ const StyleListing = ({title, collection, setSelectedStyle}) => {
                 {filtered.map((figmaStyle) => {
                     return (
                         <div
-                            className="style-collection__item action"
+                            className="style-collection__item"
                             key={figmaStyle.id}
                             onClick={() => {
                                 setSelectedStyle(figmaStyle);
                                 parent.postMessage({pluginMessage: {type: 'get-style', message: figmaStyle}}, '*');
                             }}
                         >
-                            {figmaStyle.name}
+                            <span
+                                className="list-swatch"
+                                style={{background: rgbToHex(figmaStyle.paints[0].color)}}
+                            ></span>
+                            <span>{figmaStyle.name}</span>
                         </div>
                     );
                 })}

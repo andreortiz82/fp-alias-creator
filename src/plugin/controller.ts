@@ -1,4 +1,4 @@
-figma.showUI(__html__, {width: 400, height: 600});
+figma.showUI(__html__, {width: 700, height: 550});
 
 const HelloFigma = () => {
     const paintCollection = [];
@@ -11,11 +11,10 @@ const HelloFigma = () => {
             description: style.description,
             paints: style.paints,
         });
-        // console.log(style)
     });
 
     figma.ui.postMessage({
-        type: 'send-styles',
+        type: 'get-styles',
         message: {
             colors: paintCollection,
         },
@@ -31,6 +30,10 @@ figma.ui.onmessage = (msg) => {
         style.paints = original.paints;
         style.name = `_TEMP/${msg.styleAlias}`;
         style.description = JSON.stringify({id: original.id, description: original.description, type: 'alias'});
+    }
+
+    if (msg.type === 'create-alias') {
+        console.log(msg);
     }
     // figma.closePlugin();
 };

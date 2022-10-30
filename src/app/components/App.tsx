@@ -18,7 +18,7 @@ const App = ({}) => {
         // This is how we read messages sent from the plugin controller
         window.onmessage = (event) => {
             const {type, message} = event.data.pluginMessage;
-            if (type === 'send-styles') {
+            if (type === 'get-styles') {
                 updateStyles(message);
             }
         };

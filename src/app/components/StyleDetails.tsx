@@ -1,31 +1,32 @@
 import * as React from 'react';
+import {rgbToHex} from '../utils';
 
 const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
+    console.log(style.paints[0].color);
+
     return (
         <div>
-            <div
-                className="action"
+            <button
+                className="secondary"
                 onClick={() => {
                     setSelectedStyle(null);
                 }}
             >
                 Back
-            </div>
+            </button>
             <h3>{style.name}</h3>
-            <div className="color-block" style={{background: style.description}}></div>
-            <div className="flex">
-                <div className="input">
-                    <input value={styleAlias} onChange={(e) => setStyleAlias(e.target.value)} />
-                </div>
-                <div
-                    className="action button"
+            <div className="color-block" style={{background: rgbToHex(style.paints[0].color)}}></div>
+
+            <div>
+                <textarea defaultValue={style.description} onChange={(e) => setStyleAlias(e.target.value)} />
+                <button
                     onClick={() => {
                         parent.postMessage(
                             {
                                 pluginMessage: {
                                     styleAlias: styleAlias,
                                     selectedStyle: style,
-                                    type: 'make-style',
+                                    type: 'create-alias',
                                 },
                             },
                             '*'
@@ -35,7 +36,7 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias}) => {
                     }}
                 >
                     Save
-                </div>
+                </button>
             </div>
         </div>
     );
