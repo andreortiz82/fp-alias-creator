@@ -50,15 +50,12 @@ const DetailsSwatch = ({type, style}) => {
     };
 
     const config = (type, style) => {
-        console.log(style);
-
         switch (type) {
             case 'colors':
                 return (
-                    <div
-                        className={`${type}-block style-swatch`}
-                        style={{background: rgbToHex(style.paints[0].color)}}
-                    ></div>
+                    <div className={`${type}-block style-swatch`} style={{background: rgbToHex(style.paints[0].color)}}>
+                        <span className="hex">{rgbToHex(style.paints[0].color)}</span>
+                    </div>
                 );
                 break;
             case 'typography':

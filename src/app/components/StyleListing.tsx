@@ -41,7 +41,7 @@ const StyleListing = ({collection, setSelectedStyle, type}) => {
                                         <MiniSwatch type={type} style={style} />
                                     </span>
                                     <span>
-                                        <div>{style.name}</div>
+                                        <div>{_.kebabCase(style.name)}</div>
                                         {style.description ? (
                                             <div className="known-alias">{style.description}</div>
                                         ) : null}

@@ -1,4 +1,4 @@
-figma.showUI(__html__, {width: 450, height: 500});
+figma.showUI(__html__, {width: 450, height: 600});
 
 async function loadFonts() {
     await figma.loadFontAsync({family: 'Menlo', style: 'Regular'});

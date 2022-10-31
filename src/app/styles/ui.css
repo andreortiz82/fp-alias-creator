@@ -115,7 +115,7 @@ button.primary:hover {
 }
 .alias-form__field {
     flex: 1 1 auto;
-    height: calc(100vh - 340px);
+    height: 200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
@@ -123,13 +123,23 @@ button.primary:hover {
 .alias-form__field textarea {
     margin-bottom: 0;
     flex: 1 1 auto;
-    height: calc(100vh - 340px);
 }
 .alias-form__field p {
     margin: 0;
     padding: 8px;
     background: whitesmoke;
     font-size: 14px;
+}
+
+.style-details__token,
+.hex {
+    padding: 8px;
+    background: whitesmoke;
+    color: black;
+    display: block;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .json-output {

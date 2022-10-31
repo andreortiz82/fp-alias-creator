@@ -9,10 +9,11 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}
 
     return (
         <div>
-            <BackButton setSelectedStyle={setSelectedStyle} />
-            <code>
+            <div className="style-details__title">
+                <BackButton setSelectedStyle={setSelectedStyle} />
                 <h2>{style.name}</h2>
-            </code>
+            </div>
+            <p className="style-details__token">{_.kebabCase(style.name)}</p>
 
             <DetailsSwatch type={type} style={style} />
 
