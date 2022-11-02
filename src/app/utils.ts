@@ -46,3 +46,15 @@ export const copyToClipboard = (value) => {
     }
     document.body.removeChild(textArea);
 };
+
+// buildObjWithValue('Brand/Dawn/dawn', '#FF7575')
+export const buildObjWithValue = (path, value = '') => {
+    let paths = path.split('/');
+    paths.shift();
+    return paths.reduceRight(
+        (acc, item, index) => ({
+            [item]: index === paths.length - 1 ? {value: value} : acc,
+        }),
+        {}
+    );
+};

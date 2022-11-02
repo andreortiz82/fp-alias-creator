@@ -2,7 +2,6 @@ figma.showUI(__html__, {width: 450, height: 600});
 
 async function loadFonts() {
     await figma.loadFontAsync({family: 'Menlo', style: 'Regular'});
-    await figma.loadFontAsync({family: 'Menlo', style: 'Medium'});
     await figma.loadFontAsync({family: 'Menlo', style: 'Bold'});
     await figma.loadFontAsync({family: 'Roboto', style: 'Regular'});
     await figma.loadFontAsync({family: 'Roboto', style: 'Medium'});
@@ -28,8 +27,6 @@ const HelloFigma = () => {
     });
 
     figma.getLocalTextStyles().forEach((style) => {
-        console.log(style);
-
         typographyCollection.push({
             type: 'typography',
             name: style.name,
@@ -54,7 +51,7 @@ const HelloFigma = () => {
             name: style.name,
             id: style.id,
             description: style.description,
-            layoutGrids: style.layoutGrids,
+            value: style.layoutGrids[0].sectionSize,
         });
     });
 

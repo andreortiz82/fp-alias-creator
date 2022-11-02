@@ -16,7 +16,7 @@ const StyleJson = ({value}) => {
                 return token.value;
                 break;
             case 'grid':
-                return token.layoutGrids;
+                return token.value;
                 break;
             case 'effects':
                 return token.effects;
@@ -49,7 +49,11 @@ const StyleJson = ({value}) => {
                 const knownAliases = token.description.split(',');
                 knownAliases.map((alias) => {
                     const newAlias = {name: cleanString(alias), value: `{base.${originalStyle.name}}`};
-                    output.alias[newAlias.name] = {value: newAlias.value, type: `${token.type}-alias`};
+                    output.alias[newAlias.name] = {
+                        value: newAlias.value,
+                        type: `${token.type}-alias`,
+                        originalStyle: {name: token.name, id: originalStyle.id},
+                    };
                 });
             }
         });

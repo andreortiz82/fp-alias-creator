@@ -20,34 +20,57 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}
             <div className="alias-form">
                 <div className="alias-form__field">
                     <textarea
-                        placeholder="Example: apple, banana, peanutbutter"
-                        defaultValue={style.description}
+                        placeholder="one, two, three"
+                        value={styleAlias}
                         onChange={(e) => setStyleAlias(e.target.value)}
                     />
                     <p>Use a comma separated list to define aliases for this style.</p>
                 </div>
-                <button
-                    onClick={() => {
-                        if (styleAlias === '') {
-                            alert('Enter an alias before saving');
-                        } else {
-                            parent.postMessage(
-                                {
-                                    pluginMessage: {
-                                        styleAlias: styleAlias,
-                                        selectedStyle: style,
-                                        type: 'create-alias',
-                                    },
-                                },
-                                '*'
-                            );
+
+                <div className="alias-form__actions">
+                    <button
+                        className="secondary"
+                        onClick={() => {
                             setSelectedStyle(null);
-                            setStyleAlias('');
-                        }
-                    }}
-                >
-                    Save
-                </button>
+                        }}
+                    >
+                        Cancel
+                    </button>
+                    <button
+                        disabled={styleAlias === '' ? true : false}
+                        className="secondary clear"
+                        onClick={() => {
+                            const shouldClear = confirm('Whow! This will clear all tokens for this style.');
+                            if (shouldClear) {
+                                setStyleAlias('');
+                            }
+                        }}
+                    >
+                        Clear all aliases
+                    </button>
+                    <button
+                        onClick={() => {
+                            if (styleAlias === '') {
+                                alert('Enter an alias before saving');
+                            } else {
+                                parent.postMessage(
+                                    {
+                                        pluginMessage: {
+                                            styleAlias: styleAlias,
+                                            selectedStyle: style,
+                                            type: 'create-alias',
+                                        },
+                                    },
+                                    '*'
+                                );
+                                setSelectedStyle(null);
+                                setStyleAlias('');
+                            }
+                        }}
+                    >
+                        Save
+                    </button>
+                </div>
             </div>
         </div>
     );
