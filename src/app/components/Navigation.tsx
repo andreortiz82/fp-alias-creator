@@ -27,6 +27,12 @@ const Navigation = ({currentTab, setCurrentTab}) => {
             <button className={currentTab === 'json' ? 'active' : 'secondary'} onClick={() => setCurrentTab('json')}>
                 JSON
             </button>
+            <button
+                className={currentTab === 'settings' ? 'active' : 'secondary'}
+                onClick={() => setCurrentTab('settings')}
+            >
+                Settings
+            </button>
         </nav>
     );
 };

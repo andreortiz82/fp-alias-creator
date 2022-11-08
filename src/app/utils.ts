@@ -1,3 +1,6 @@
+import {Octokit} from '@octokit/core';
+export const LOCAL_STORAGE_SETTINGS = 'alias-creator-settings';
+
 export const rgbToHex = (rgb) => {
     // https://github.com/Ahmad-Amin/figmaPlugin/blob/f27c57245a51248857df4cf278c5599508c517f2/src/class_functions/classes/classes.js
     let r = rgb.r;
@@ -45,6 +48,33 @@ export const copyToClipboard = (value) => {
         alert('Oh no! There was an issue.');
     }
     document.body.removeChild(textArea);
+};
+
+export const saveToLocalStorage = (value) => {
+    parent.postMessage(
+        {
+            pluginMessage: {
+                type: 'save-api-key',
+                message: {localStoreId: LOCAL_STORAGE_SETTINGS, localStoreValue: value},
+            },
+        },
+        '*'
+    );
+    alert('Saved!');
+};
+
+export const makeRequest = async (json, localStore) => {
+    const octokit = new Octokit({auth: localStore.apiKey});
+    let date = new Date();
+    let fileName = `tokens.${date[Symbol.toPrimitive]('number')}.json`;
+    let pushObject = {};
+    pushObject.description = 'Example of a gist';
+    pushObject.public = false;
+    pushObject.files = {};
+    pushObject.files[fileName] = {content: json};
+
+    let res = await octokit.request('POST /gists', pushObject);
+    console.log(res.data);
 };
 
 // buildObjWithValue('Brand/Dawn/dawn', '#FF7575')

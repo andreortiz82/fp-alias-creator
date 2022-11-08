@@ -3,13 +3,14 @@ import React, {useState, useEffect} from 'react';
 import StyleDetails from './StyleDetails';
 import StyleListing from './StyleListing';
 import StyleJson from './StyleJson';
+import Settings from './Settings';
 import {Navigation} from './Navigation';
 
 declare function require(path: string): any;
 
 const App = ({}) => {
     const [currentTab, setCurrentTab] = useState('colors');
-
+    const [localStore, setLocalStore] = useState(null);
     const [colorStyles, setColorStyles] = useState([]);
     const [typographyStyles, setTypographyStyles] = useState([]);
     const [gridStyles, setGridStyles] = useState([]);
@@ -29,8 +30,13 @@ const App = ({}) => {
         // This is how we read messages sent from the plugin controller
         window.onmessage = (event) => {
             const {type, message} = event.data.pluginMessage;
+
             if (type === 'get-styles') {
                 updateStyles(message);
+            }
+
+            if (type === 'fetched-storage') {
+                setLocalStore(message);
             }
         };
     }, []);
@@ -71,8 +77,16 @@ const App = ({}) => {
             case 'effects':
                 return renderStyleView(effectsStyles, view);
                 break;
+            case 'settings':
+                return <Settings localStore={localStore} setLocalStore={setLocalStore} />;
+                break;
             default:
-                return <StyleJson value={[...colorStyles, ...typographyStyles, ...gridStyles, ...effectsStyles]} />;
+                return (
+                    <StyleJson
+                        localStore={localStore}
+                        value={[...colorStyles, ...typographyStyles, ...gridStyles, ...effectsStyles]}
+                    />
+                );
                 break;
         }
     };

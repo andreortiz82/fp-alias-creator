@@ -1,8 +1,8 @@
 import * as React from 'react';
-import {rgbToHex, saveFile, copyToClipboard} from '../utils';
+import {rgbToHex, saveFile, copyToClipboard, makeRequest} from '../utils';
 import * as _ from 'lodash';
 
-const StyleJson = ({value}) => {
+const StyleJson = ({value, localStore}) => {
     const cleanString = (s) => {
         return _.kebabCase(s);
     };
@@ -77,6 +77,13 @@ const StyleJson = ({value}) => {
                         onClick={() => copyToClipboard(JSON.stringify(createOutput(value), null, 2))}
                     >
                         Copy to Clipboard
+                    </button>
+
+                    <button
+                        className="copy secondary"
+                        onClick={() => makeRequest(JSON.stringify(createOutput(value)), localStore)}
+                    >
+                        Sync with Github
                     </button>
                 </div>
 

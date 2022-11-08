@@ -183,6 +183,12 @@ button.primary:disabled {
     font-size: 14px;
 }
 
+.settings__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 * {
     box-sizing: border-box;
 }

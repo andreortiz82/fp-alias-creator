@@ -1,4 +1,4 @@
-figma.showUI(__html__, {width: 450, height: 600});
+figma.showUI(__html__, {width: 600, height: 600});
 
 async function loadFonts() {
     await figma.loadFontAsync({family: 'Menlo', style: 'Regular'});
@@ -74,6 +74,15 @@ const HelloFigma = () => {
             effects: effectsCollection,
         },
     });
+
+    const LOCAL_STORAGE_SETTINGS = 'alias-creator-settings'; // duplate var from ../components/utils.ts
+    figma.clientStorage.getAsync(LOCAL_STORAGE_SETTINGS).then((result) => {
+        console.log(result);
+        figma.ui.postMessage({
+            type: 'fetched-storage',
+            message: JSON.parse(result),
+        });
+    });
 };
 
 HelloFigma();
@@ -85,5 +94,11 @@ figma.ui.onmessage = (msg) => {
         figma.notify(`Created ${msg.styleAlias} from ${msg.selectedStyle.name}!`);
         HelloFigma();
     }
+
+    if (msg.type === 'save-api-key') {
+        console.log(msg.message);
+        figma.clientStorage.setAsync(msg.message.localStoreId, JSON.stringify(msg.message.localStoreValue));
+    }
+
     // figma.closePlugin();
 };
