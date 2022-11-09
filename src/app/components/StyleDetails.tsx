@@ -50,22 +50,18 @@ const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}
                     </button>
                     <button
                         onClick={() => {
-                            if (styleAlias === '') {
-                                alert('Enter an alias before saving');
-                            } else {
-                                parent.postMessage(
-                                    {
-                                        pluginMessage: {
-                                            styleAlias: styleAlias,
-                                            selectedStyle: style,
-                                            type: 'create-alias',
-                                        },
+                            parent.postMessage(
+                                {
+                                    pluginMessage: {
+                                        styleAlias: styleAlias,
+                                        selectedStyle: style,
+                                        type: 'create-alias',
                                     },
-                                    '*'
-                                );
-                                setSelectedStyle(null);
-                                setStyleAlias('');
-                            }
+                                },
+                                '*'
+                            );
+                            setSelectedStyle(null);
+                            setStyleAlias('');
                         }}
                     >
                         Save

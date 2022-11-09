@@ -43,7 +43,7 @@ const MiniSwatch = ({type, style}) => {
 };
 
 const DetailsSwatch = ({type, style}) => {
-    const parseWeight = (weight) => {
+    const parseWeight = () => {
         if (style.value.fontName.style === 'Regular') return 400;
         if (style.value.fontName.style === 'Medium') return 500;
         if (style.value.fontName.style === 'Bold') return 700;
@@ -65,7 +65,7 @@ const DetailsSwatch = ({type, style}) => {
                         style={{
                             fontFamily: `${style.value.fontName.family} !important`,
                             fontSize: style.value.fontSize,
-                            fontWeight: `${parseWeight(style.value.fontName.style)}`,
+                            fontWeight: parseWeight(),
                             lineHeight: `${style.value.lineHeight.value}px`,
                         }}
                     >

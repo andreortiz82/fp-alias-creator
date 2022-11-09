@@ -9,7 +9,7 @@ import {Navigation} from './Navigation';
 declare function require(path: string): any;
 
 const App = ({}) => {
-    const [currentTab, setCurrentTab] = useState('colors');
+    const [currentTab, setCurrentTab] = useState('json');
     const [localStore, setLocalStore] = useState(null);
     const [colorStyles, setColorStyles] = useState([]);
     const [typographyStyles, setTypographyStyles] = useState([]);

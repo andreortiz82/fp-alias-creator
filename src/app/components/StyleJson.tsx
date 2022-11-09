@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {rgbToHex, saveFile, copyToClipboard, makeRequest} from '../utils';
+import {rgbToHex, saveFile, copyToClipboard, pushTokensToGh} from '../utils';
 import * as _ from 'lodash';
 
 const StyleJson = ({value, localStore}) => {
@@ -80,8 +80,8 @@ const StyleJson = ({value, localStore}) => {
                     </button>
 
                     <button
-                        className="copy secondary"
-                        onClick={() => makeRequest(JSON.stringify(createOutput(value)), localStore)}
+                        className="sync secondary"
+                        onClick={() => pushTokensToGh(JSON.stringify(createOutput(value), null, 2), localStore)}
                     >
                         Sync with Github
                     </button>

@@ -18,7 +18,19 @@ const Settings = ({localStore, setLocalStore}) => {
                             apiKey: e.target.value,
                         }));
                     }}
-                    placeholder="Enter Github API Key"
+                    placeholder="Github API Key"
+                />
+
+                <input
+                    name="gh-org"
+                    defaultValue={localStore.ghOrg}
+                    onChange={(e) => {
+                        setLocalStore((current) => ({
+                            ...current,
+                            ghOrg: e.target.value,
+                        }));
+                    }}
+                    placeholder="Github Organization"
                 />
 
                 <input
@@ -30,22 +42,31 @@ const Settings = ({localStore, setLocalStore}) => {
                             ghRepo: e.target.value,
                         }));
                     }}
-                    placeholder="Enter Github Repo"
+                    placeholder="Github Repo"
                 />
 
                 <input
-                    name="gh-branch"
-                    defaultValue={localStore.ghBranch}
+                    name="gh-file-path"
+                    defaultValue={localStore.ghPath}
                     onChange={(e) => {
                         setLocalStore((current) => ({
                             ...current,
-                            ghBranch: e.target.value,
+                            ghPath: e.target.value,
                         }));
                     }}
-                    placeholder="Enter Github Branch"
+                    placeholder="Github File Path"
                 />
 
-                <button className="save" onClick={() => saveToLocalStorage(localStore)}>
+                <button
+                    className="save"
+                    onClick={() => {
+                        setLocalStore((current) => ({
+                            ...current,
+                            hasConfig: true,
+                        }));
+                        saveToLocalStorage(localStore);
+                    }}
+                >
                     Save
                 </button>
             </div>
