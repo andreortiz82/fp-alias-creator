@@ -29,6 +29,17 @@ const StyleJson = ({value, localStore}) => {
 
     const createOutput = (styles) => {
         const output = {base: {}, alias: {}};
+
+        // // console.log(token)
+        // const groups = styles.reduce((groups, token) => {
+        //     const group = (groups[token.type] || []);
+        //     group.push(token);
+        //     groups[token.type] = group;
+        //     return groups;
+        // }, {});
+
+        // console.log(groups);
+
         styles.map((token) => {
             const originalStyle = {
                 id: token.id,
@@ -36,6 +47,7 @@ const StyleJson = ({value, localStore}) => {
                 value: configValue(token),
                 knownAliases: token.description,
             };
+
             output.base[originalStyle.name] = {
                 id: originalStyle.id,
                 value: originalStyle.value,
@@ -46,7 +58,7 @@ const StyleJson = ({value, localStore}) => {
             };
 
             if (token.description !== '') {
-                const knownAliases = token.description.split(',');
+                const knownAliases = token.description.replace(/\r?\n/g, ',').split(',');
                 knownAliases.map((alias) => {
                     const newAlias = {name: cleanString(alias), value: `{base.${originalStyle.name}}`};
                     output.alias[newAlias.name] = {

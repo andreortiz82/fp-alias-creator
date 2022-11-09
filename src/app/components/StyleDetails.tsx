@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {BackButton} from './Navigation';
 import {DetailsSwatch} from './Swatch';
+import * as _ from 'lodash';
 
 const StyleDetails = ({setSelectedStyle, style, setStyleAlias, styleAlias, type}) => {
     React.useEffect(() => {
